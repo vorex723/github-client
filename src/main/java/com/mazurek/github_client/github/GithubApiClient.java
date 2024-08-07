@@ -53,4 +53,8 @@ public class GithubApiClient {
         }
     }
 
+    public List<Branch> getRepositoryBranches(Repository repository){
+        return null;
+    }
+
 }

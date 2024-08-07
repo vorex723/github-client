@@ -52,7 +52,7 @@ class GithubApiClientTest {
         private final String usernameALot = "danvega";
         private final String usernameOnePage = "danvega1page";
         private final String usernameOneFullPage = "danvega1page30";
-
+        private final String usernameSpringProject = "spring-project";
         private final String reposUrlMessageFormat = "/users/{0}/repos?page={1}";
         private int pageNumber;
 
@@ -128,6 +128,31 @@ class GithubApiClientTest {
             assertThat(returnedReposOnePage.size()).isEqualTo(29).withFailMessage("User should have exactly 29 repos.");
             assertThat(returnedReposOneFullPage.size()).isEqualTo(30).withFailMessage("User should have exactly 30 repos.");
             assertThat(returnedReposALot.size()).isEqualTo(263).withFailMessage("User should have exactly 263 repos.");
+        }
+
+        @Test
+        @DisplayName("When getting user repos should parse correct data to Repository object")
+        public void whenGettingUserReposShouldParseCorrectDataToRepositoryObject(){
+            List<Repository> returnedRepos = githubApiClient.getUserRepositories(usernameSpringProject);
+
+            assertThat(returnedRepos.size()).isEqualTo(1);
+            Repository returnedRepo = returnedRepos.getFirst();
+
+            assertEquals("muisc.store.online",returnedRepo.getName());
+            assertEquals(usernameSpringProject, returnedRepo.getUsername());
+            assertEquals(false,returnedRepo.isFork());
+
+        }
+
+
+    }
+    @Nested
+    @DisplayName("Get repository branches tests:")
+    class getRepositoryBranches{
+        private final String username = "danvega";
+
+        @BeforeEach
+        public void setUp(){
         }
     }
 

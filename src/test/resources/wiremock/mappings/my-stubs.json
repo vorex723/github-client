@@ -1,0 +1,133 @@
+{
+  "mappings" :
+  [
+    {
+      "request" :
+      {
+        "method" : "GET",
+        "url" : "/users/no-repos/repos?page=1"
+      },
+      "response" :
+      {
+        "status" : 200,
+        "headers" : {"Content-Type" : "application/json"},
+        "jsonBody" :
+        []
+      }
+    },
+    {
+      "request" :
+      {
+        "method" : "GET",
+        "url" : "/users/spring-project/repos?page=1"
+      },
+      "response" :
+      {
+        "status" : 200,
+        "headers" : {"Content-Type" : "application/json"},
+        "jsonBody" :
+        [
+          {
+            "id":72989122,
+            "node_id":"MDEwOlJlcG9zaXRvcnk3Mjk4OTEyMg==",
+            "name":"muisc.store.online",
+            "full_name":"spring-project/muisc.store.online",
+            "private":false,
+            "owner":
+              {
+                "login":"spring-project",
+                "id":23290966,"node_id":"MDEyOk9yZ2FuaXphdGlvbjIzMjkwOTY2",
+                "avatar_url":"https://avatars.githubusercontent.com/u/23290966?v=4",
+                "gravatar_id":"","url":"https://api.github.com/users/spring-project",
+                "html_url":"https://github.com/spring-project",
+                "followers_url":"https://api.github.com/users/spring-project/followers",
+                "following_url":"https://api.github.com/users/spring-project/following{/other_user}",
+                "gists_url":"https://api.github.com/users/spring-project/gists{/gist_id}",
+                "starred_url":"https://api.github.com/users/spring-project/starred{/owner}{/repo}",
+                "subscriptions_url":"https://api.github.com/users/spring-project/subscriptions",
+                "organizations_url":"https://api.github.com/users/spring-project/orgs",
+                "repos_url":"https://api.github.com/users/spring-project/repos",
+                "events_url":"https://api.github.com/users/spring-project/events{/privacy}",
+                "received_events_url":"https://api.github.com/users/spring-project/received_events",
+                "type":"Organization","site_admin":false
+              },
+            "html_url":"https://github.com/spring-project/muisc.store.online",
+            "description":"Music Store Online on Eclipse",
+            "fork":false,
+            "url":"https://api.github.com/repos/spring-project/muisc.store.online",
+            "forks_url":"https://api.github.com/repos/spring-project/muisc.store.online/forks",
+            "keys_url":"https://api.github.com/repos/spring-project/muisc.store.online/keys{/key_id}",
+            "collaborators_url":"https://api.github.com/repos/spring-project/muisc.store.online/collaborators{/collaborator}",
+            "teams_url":"https://api.github.com/repos/spring-project/muisc.store.online/teams",
+            "hooks_url":"https://api.github.com/repos/spring-project/muisc.store.online/hooks",
+            "issue_events_url":"https://api.github.com/repos/spring-project/muisc.store.online/issues/events{/number}",
+            "events_url":"https://api.github.com/repos/spring-project/muisc.store.online/events",
+            "assignees_url":"https://api.github.com/repos/spring-project/muisc.store.online/assignees{/user}",
+            "branches_url":"https://api.github.com/repos/spring-project/muisc.store.online/branches{/branch}",
+            "tags_url":"https://api.github.com/repos/spring-project/muisc.store.online/tags",
+            "blobs_url":"https://api.github.com/repos/spring-project/muisc.store.online/git/blobs{/sha}",
+            "git_tags_url":"https://api.github.com/repos/spring-project/muisc.store.online/git/tags{/sha}",
+            "git_refs_url":"https://api.github.com/repos/spring-project/muisc.store.online/git/refs{/sha}",
+            "trees_url":"https://api.github.com/repos/spring-project/muisc.store.online/git/trees{/sha}",
+            "statuses_url":"https://api.github.com/repos/spring-project/muisc.store.online/statuses/{sha}",
+            "languages_url":"https://api.github.com/repos/spring-project/muisc.store.online/languages",
+            "stargazers_url":"https://api.github.com/repos/spring-project/muisc.store.online/stargazers",
+            "contributors_url":"https://api.github.com/repos/spring-project/muisc.store.online/contributors",
+            "subscribers_url":"https://api.github.com/repos/spring-project/muisc.store.online/subscribers",
+            "subscription_url":"https://api.github.com/repos/spring-project/muisc.store.online/subscription",
+            "commits_url":"https://api.github.com/repos/spring-project/muisc.store.online/commits{/sha}",
+            "git_commits_url":"https://api.github.com/repos/spring-project/muisc.store.online/git/commits{/sha}",
+            "comments_url":"https://api.github.com/repos/spring-project/muisc.store.online/comments{/number}",
+            "issue_comment_url":"https://api.github.com/repos/spring-project/muisc.store.online/issues/comments{/number}",
+            "contents_url":"https://api.github.com/repos/spring-project/muisc.store.online/contents/{+path}",
+            "compare_url":"https://api.github.com/repos/spring-project/muisc.store.online/compare/{base}...{head}",
+            "merges_url":"https://api.github.com/repos/spring-project/muisc.store.online/merges",
+            "archive_url":"https://api.github.com/repos/spring-project/muisc.store.online/{archive_format}{/ref}",
+            "downloads_url":"https://api.github.com/repos/spring-project/muisc.store.online/downloads",
+            "issues_url":"https://api.github.com/repos/spring-project/muisc.store.online/issues{/number}",
+            "pulls_url":"https://api.github.com/repos/spring-project/muisc.store.online/pulls{/number}",
+            "milestones_url":"https://api.github.com/repos/spring-project/muisc.store.online/milestones{/number}",
+            "notifications_url":"https://api.github.com/repos/spring-project/muisc.store.online/notifications{?since,all,participating}",
+            "labels_url":"https://api.github.com/repos/spring-project/muisc.store.online/labels{/name}",
+            "releases_url":"https://api.github.com/repos/spring-project/muisc.store.online/releases{/id}",
+            "deployments_url":"https://api.github.com/repos/spring-project/muisc.store.online/deployments",
+            "created_at":"2016-11-06T12:28:16Z",
+            "updated_at":"2016-11-06T15:01:12Z",
+            "pushed_at":"2016-11-07T10:04:11Z",
+            "git_url":"git://github.com/spring-project/muisc.store.online.git",
+            "ssh_url":"git@github.com:spring-project/muisc.store.online.git",
+            "clone_url":"https://github.com/spring-project/muisc.store.online.git",
+            "svn_url":"https://github.com/spring-project/muisc.store.online",
+            "homepage":null,
+            "size":24,
+            "stargazers_count":0,
+            "watchers_count":0,
+            "language":null,
+            "has_issues":true,
+            "has_projects":true,
+            "has_downloads":true,
+            "has_wiki":true,
+            "has_pages":false,
+            "has_discussions":false,
+            "forks_count":1,
+            "mirror_url":null,
+            "archived":false,
+            "disabled":false,
+            "open_issues_count":0,
+            "license":null,
+            "allow_forking":true,
+            "is_template":false,
+            "web_commit_signoff_required":false,
+            "topics":[],
+            "visibility":"public",
+            "forks":1,
+            "open_issues":0,
+            "watchers":0,
+            "default_branch":"master",
+            "permissions":{"admin":false,"maintain":false,"push":false,"triage":false,"pull":true}
+          }
+        ]
+      }
+    }
+  ]
+}
