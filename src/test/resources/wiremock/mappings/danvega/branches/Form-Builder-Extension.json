@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/Form-Builder-Extension/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"bd29dac568de0baac8b5cb150a0d1cc512290c2b","url":"https://api.github.com/repos/danvega/Form-Builder-Extension/commits/bd29dac568de0baac8b5cb150a0d1cc512290c2b"},"protected":false}]
+          }
+      }
+  ]
+}

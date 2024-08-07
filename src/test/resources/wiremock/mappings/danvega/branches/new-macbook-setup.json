@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/new-macbook-setup/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"38e7393682667160a156c0696b875c80486b0ca5","url":"https://api.github.com/repos/danvega/new-macbook-setup/commits/38e7393682667160a156c0696b875c80486b0ca5"},"protected":false}]
+          }
+      }
+  ]
+}

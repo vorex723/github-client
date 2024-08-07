@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/sublime-text-2-mxunit/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"1c77d9a0ca5157876d563a5810e8287a16610329","url":"https://api.github.com/repos/danvega/sublime-text-2-mxunit/commits/1c77d9a0ca5157876d563a5810e8287a16610329"},"protected":false}]
+          }
+      }
+  ]
+}

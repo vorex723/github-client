@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/up-and-running-with-vuejs/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"c40d22964288a3a9d1d738bafb197fadfd136c62","url":"https://api.github.com/repos/danvega/up-and-running-with-vuejs/commits/c40d22964288a3a9d1d738bafb197fadfd136c62"},"protected":false}]
+          }
+      }
+  ]
+}

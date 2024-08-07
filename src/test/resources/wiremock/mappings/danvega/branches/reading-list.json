@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/reading-list/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"a1790fa7bae6f0515fc5c1f8da4db46e5a711951","url":"https://api.github.com/repos/danvega/reading-list/commits/a1790fa7bae6f0515fc5c1f8da4db46e5a711951"},"protected":true},{"name":"starting-code","commit":{"sha":"6ec21f8111c3eb96336c96856df88cfeb14ed72f","url":"https://api.github.com/repos/danvega/reading-list/commits/6ec21f8111c3eb96336c96856df88cfeb14ed72f"},"protected":false}]
+          }
+      }
+  ]
+}

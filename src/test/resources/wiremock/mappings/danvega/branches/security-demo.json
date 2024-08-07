@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/security-demo/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"a31ceb7425b1ea507ea70c4f647dc79834eec07c","url":"https://api.github.com/repos/danvega/security-demo/commits/a31ceb7425b1ea507ea70c4f647dc79834eec07c"},"protected":false}]
+          }
+      }
+  ]
+}

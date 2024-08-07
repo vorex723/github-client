@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/slides/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"f1582795e854a129921c631be3e6fb845ac25e4f","url":"https://api.github.com/repos/danvega/slides/commits/f1582795e854a129921c631be3e6fb845ac25e4f"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/didmichiganbeatohiostate/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"e970046ee97e12b70de5b589e593c4f2fdaa1925","url":"https://api.github.com/repos/danvega/didmichiganbeatohiostate/commits/e970046ee97e12b70de5b589e593c4f2fdaa1925"},"protected":false}]
+          }
+      }
+  ]
+}

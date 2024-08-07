@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/cb-bootstrap/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"7f1bd24584dd5656676246ec84a92cf87dd96a8c","url":"https://api.github.com/repos/danvega/cb-bootstrap/commits/7f1bd24584dd5656676246ec84a92cf87dd96a8c"},"protected":false}]
+          }
+      }
+  ]
+}

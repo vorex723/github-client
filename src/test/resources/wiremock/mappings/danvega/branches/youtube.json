@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/youtube/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"43ef53b3fc0a8188bd1047cea1b7e1caf7e0d8d6","url":"https://api.github.com/repos/danvega/youtube/commits/43ef53b3fc0a8188bd1047cea1b7e1caf7e0d8d6"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-domain-class-converter/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"688f64b52d767f262fbc0bc95f2ebea90ba1d03d","url":"https://api.github.com/repos/danvega/spring-domain-class-converter/commits/688f64b52d767f262fbc0bc95f2ebea90ba1d03d"},"protected":false}]
+          }
+      }
+  ]
+}

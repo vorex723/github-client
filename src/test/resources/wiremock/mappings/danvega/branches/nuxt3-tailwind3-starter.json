@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/nuxt3-tailwind3-starter/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"8cb2e0baf4b22874b5c44c2d2caab95b5f221eaf","url":"https://api.github.com/repos/danvega/nuxt3-tailwind3-starter/commits/8cb2e0baf4b22874b5c44c2d2caab95b5f221eaf"},"protected":false}]
+          }
+      }
+  ]
+}

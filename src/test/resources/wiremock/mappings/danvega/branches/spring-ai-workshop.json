@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-ai-workshop/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"bedrock","commit":{"sha":"8f675f70c6db94d6626dc8e127660c991dd092d0","url":"https://api.github.com/repos/danvega/spring-ai-workshop/commits/8f675f70c6db94d6626dc8e127660c991dd092d0"},"protected":false},{"name":"bedrock-starter","commit":{"sha":"cf8cfa139d86d78257bf28231d650c89ef7bb66c","url":"https://api.github.com/repos/danvega/spring-ai-workshop/commits/cf8cfa139d86d78257bf28231d650c89ef7bb66c"},"protected":false},{"name":"main","commit":{"sha":"52c96a506e564e3c38a91240c9f13a0f91bac79a","url":"https://api.github.com/repos/danvega/spring-ai-workshop/commits/52c96a506e564e3c38a91240c9f13a0f91bac79a"},"protected":false},{"name":"main-starter","commit":{"sha":"87a43aead5b7647bd8e8b3d69f6d7f9b200f30aa","url":"https://api.github.com/repos/danvega/spring-ai-workshop/commits/87a43aead5b7647bd8e8b3d69f6d7f9b200f30aa"},"protected":false}]
+          }
+      }
+  ]
+}

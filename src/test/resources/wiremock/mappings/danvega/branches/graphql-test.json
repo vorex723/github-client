@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/graphql-test/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"53a6f683848ad274eec0fbbf41632e28055b8679","url":"https://api.github.com/repos/danvega/graphql-test/commits/53a6f683848ad274eec0fbbf41632e28055b8679"},"protected":false},{"name":"starter","commit":{"sha":"3ac72b8a0cafc6d1311f02f9f802072ca7272e6a","url":"https://api.github.com/repos/danvega/graphql-test/commits/3ac72b8a0cafc6d1311f02f9f802072ca7272e6a"},"protected":false},{"name":"test-starter","commit":{"sha":"9421645e7525e24e8b24f94306fae7dca49a79d8","url":"https://api.github.com/repos/danvega/graphql-test/commits/9421645e7525e24e8b24f94306fae7dca49a79d8"},"protected":false}]
+          }
+      }
+  ]
+}

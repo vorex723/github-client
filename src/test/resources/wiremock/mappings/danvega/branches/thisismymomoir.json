@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/thisismymomoir/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"develop","commit":{"sha":"7aa047b35a62e6aa4d421cad5dc0dfa53bf638bc","url":"https://api.github.com/repos/danvega/thisismymomoir/commits/7aa047b35a62e6aa4d421cad5dc0dfa53bf638bc"},"protected":false},{"name":"develop-stash","commit":{"sha":"e184d9b85c41400e1fd9e631eddb32ff6a81e7d5","url":"https://api.github.com/repos/danvega/thisismymomoir/commits/e184d9b85c41400e1fd9e631eddb32ff6a81e7d5"},"protected":false},{"name":"hybrid-render","commit":{"sha":"cccc4575af317e546d53774d1de2b8b4e8b0fb59","url":"https://api.github.com/repos/danvega/thisismymomoir/commits/cccc4575af317e546d53774d1de2b8b4e8b0fb59"},"protected":false},{"name":"main","commit":{"sha":"6434d488532f2dad5ddd3cfcae04d9593f79d310","url":"https://api.github.com/repos/danvega/thisismymomoir/commits/6434d488532f2dad5ddd3cfcae04d9593f79d310"},"protected":true}]
+          }
+      }
+  ]
+}

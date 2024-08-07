@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/whats-new-spring-boot-2.6/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"2.5.9-work","commit":{"sha":"dcbf61038bf73e0c608f9ff850608ae1d78af548","url":"https://api.github.com/repos/danvega/whats-new-spring-boot-2.6/commits/dcbf61038bf73e0c608f9ff850608ae1d78af548"},"protected":false},{"name":"master","commit":{"sha":"9ad8dffd0ec77d60be9a3545cfada5fdb8c016d0","url":"https://api.github.com/repos/danvega/whats-new-spring-boot-2.6/commits/9ad8dffd0ec77d60be9a3545cfada5fdb8c016d0"},"protected":false},{"name":"upgrading-2.6.3","commit":{"sha":"dcbf61038bf73e0c608f9ff850608ae1d78af548","url":"https://api.github.com/repos/danvega/whats-new-spring-boot-2.6/commits/dcbf61038bf73e0c608f9ff850608ae1d78af548"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-boot-intro/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"dependabot/maven/web-applications/static-content/org.webjars-bootstrap-3.4.0","commit":{"sha":"60e16a937ef44e6a4af97ceb4b37758f5d557106","url":"https://api.github.com/repos/danvega/spring-boot-intro/commits/60e16a937ef44e6a4af97ceb4b37758f5d557106"},"protected":false},{"name":"master","commit":{"sha":"9732e9e5a4b9965f79c387196e269873290e3625","url":"https://api.github.com/repos/danvega/spring-boot-intro/commits/9732e9e5a4b9965f79c387196e269873290e3625"},"protected":false}]
+          }
+      }
+  ]
+}

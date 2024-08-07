@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/gorm-spring-boot-demo/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"314f9c8c8f2c1d66d02628fecb1386702384c23d","url":"https://api.github.com/repos/danvega/gorm-spring-boot-demo/commits/314f9c8c8f2c1d66d02628fecb1386702384c23d"},"protected":false}]
+          }
+      }
+  ]
+}

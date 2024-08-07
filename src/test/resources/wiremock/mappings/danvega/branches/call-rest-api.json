@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/call-rest-api/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"840f5ca6bfb8ae676a64dfce3cb119e406866ba5","url":"https://api.github.com/repos/danvega/call-rest-api/commits/840f5ca6bfb8ae676a64dfce3cb119e406866ba5"},"protected":false}]
+          }
+      }
+  ]
+}

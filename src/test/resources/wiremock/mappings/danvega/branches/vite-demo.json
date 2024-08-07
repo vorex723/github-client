@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/vite-demo/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"dependabot/npm_and_yarn/browserslist-4.16.6","commit":{"sha":"fd1a61162761df34590774947049796c209fd206","url":"https://api.github.com/repos/danvega/vite-demo/commits/fd1a61162761df34590774947049796c209fd206"},"protected":false},{"name":"dependabot/npm_and_yarn/glob-parent-5.1.2","commit":{"sha":"b79a3ef52ae86497eef53727d8a2d5bd02e2e111","url":"https://api.github.com/repos/danvega/vite-demo/commits/b79a3ef52ae86497eef53727d8a2d5bd02e2e111"},"protected":false},{"name":"dependabot/npm_and_yarn/json5-1.0.2","commit":{"sha":"504085653f3f0125e7084df45cda270f9e672c7b","url":"https://api.github.com/repos/danvega/vite-demo/commits/504085653f3f0125e7084df45cda270f9e672c7b"},"protected":false},{"name":"dependabot/npm_and_yarn/json5-and-vite-and-vue/compiler-sfc--removed","commit":{"sha":"237dc415799cded7fca009d29588c67003e41d78","url":"https://api.github.com/repos/danvega/vite-demo/commits/237dc415799cded7fca009d29588c67003e41d78"},"protected":false},{"name":"dependabot/npm_and_yarn/loader-utils-1.4.2","commit":{"sha":"6aa236f4c0fab96e75117db5f22ad8961a74bd3a","url":"https://api.github.com/repos/danvega/vite-demo/commits/6aa236f4c0fab96e75117db5f22ad8961a74bd3a"},"protected":false},{"name":"dependabot/npm_and_yarn/lodash-4.17.21","commit":{"sha":"86852210babaae72d1220bea31530b12decfa5e0","url":"https://api.github.com/repos/danvega/vite-demo/commits/86852210babaae72d1220bea31530b12decfa5e0"},"protected":false},{"name":"dependabot/npm_and_yarn/minimist-1.2.6","commit":{"sha":"ab1c124f3ccff05ede6b1f04dc46320b392e3663","url":"https://api.github.com/repos/danvega/vite-demo/commits/ab1c124f3ccff05ede6b1f04dc46320b392e3663"},"protected":false},{"name":"dependabot/npm_and_yarn/path-parse-1.0.7","commit":{"sha":"28e73cb9f93053bc70a8745fd86d27499bcfad89","url":"https://api.github.com/repos/danvega/vite-demo/commits/28e73cb9f93053bc70a8745fd86d27499bcfad89"},"protected":false},{"name":"dependabot/npm_and_yarn/terser-4.8.1","commit":{"sha":"4f9b454bacc27f9c3d647e55c56eef5885346f96","url":"https://api.github.com/repos/danvega/vite-demo/commits/4f9b454bacc27f9c3d647e55c56eef5885346f96"},"protected":false},{"name":"dependabot/npm_and_yarn/thenify-3.3.1","commit":{"sha":"431f17a1f41eecbf1921b03bacbf9ac52159a098","url":"https://api.github.com/repos/danvega/vite-demo/commits/431f17a1f41eecbf1921b03bacbf9ac52159a098"},"protected":false},{"name":"dependabot/npm_and_yarn/ws-7.4.6","commit":{"sha":"f83723075381f68d0e738fc48510c5bfc1714ced","url":"https://api.github.com/repos/danvega/vite-demo/commits/f83723075381f68d0e738fc48510c5bfc1714ced"},"protected":false},{"name":"master","commit":{"sha":"0c0fc5eca4e992096cd2475bddfb7129c0d5848c","url":"https://api.github.com/repos/danvega/vite-demo/commits/0c0fc5eca4e992096cd2475bddfb7129c0d5848c"},"protected":false}]
+          }
+      }
+  ]
+}

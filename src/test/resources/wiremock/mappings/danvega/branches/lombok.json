@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/lombok/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"e903900fc226886397e495acfe6159cde78268ae","url":"https://api.github.com/repos/danvega/lombok/commits/e903900fc226886397e495acfe6159cde78268ae"},"protected":false}]
+          }
+      }
+  ]
+}

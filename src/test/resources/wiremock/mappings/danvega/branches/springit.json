@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/springit/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"comments","commit":{"sha":"f1283ecc58f739c948be548ca14ffc1b8cb3b1c8","url":"https://api.github.com/repos/danvega/springit/commits/f1283ecc58f739c948be548ca14ffc1b8cb3b1c8"},"protected":false},{"name":"database","commit":{"sha":"514d09b4b35865a1d3e03a65ba4b1c4688a2ecad","url":"https://api.github.com/repos/danvega/springit/commits/514d09b4b35865a1d3e03a65ba4b1c4688a2ecad"},"protected":false},{"name":"master","commit":{"sha":"b1c1301740b1d11d7da4c221b774165c6d8f7648","url":"https://api.github.com/repos/danvega/springit/commits/b1c1301740b1d11d7da4c221b774165c6d8f7648"},"protected":false},{"name":"playground","commit":{"sha":"9090870f097819f8271fb8c62264368a4f4b3d07","url":"https://api.github.com/repos/danvega/springit/commits/9090870f097819f8271fb8c62264368a4f4b3d07"},"protected":false},{"name":"production","commit":{"sha":"57ac0f2223b4ece79dfb9857d37fb25d7500b26b","url":"https://api.github.com/repos/danvega/springit/commits/57ac0f2223b4ece79dfb9857d37fb25d7500b26b"},"protected":false},{"name":"registration","commit":{"sha":"90cd15d603cfe676e45ded3619d3df9880f999dc","url":"https://api.github.com/repos/danvega/springit/commits/90cd15d603cfe676e45ded3619d3df9880f999dc"},"protected":false},{"name":"service","commit":{"sha":"1175c96dedfb549ee557a4e54bcd424490aff6c9","url":"https://api.github.com/repos/danvega/springit/commits/1175c96dedfb549ee557a4e54bcd424490aff6c9"},"protected":false},{"name":"spring-mvc-controller","commit":{"sha":"bbdee9a4337186ecd53bc3e32e1e9d036d1f16f1","url":"https://api.github.com/repos/danvega/springit/commits/bbdee9a4337186ecd53bc3e32e1e9d036d1f16f1"},"protected":false},{"name":"spring-mvc-model","commit":{"sha":"514d09b4b35865a1d3e03a65ba4b1c4688a2ecad","url":"https://api.github.com/repos/danvega/springit/commits/514d09b4b35865a1d3e03a65ba4b1c4688a2ecad"},"protected":false},{"name":"spring-mvc-view","commit":{"sha":"2121774b6da54ac4b9fd382d25b1fcb2262bc514","url":"https://api.github.com/repos/danvega/springit/commits/2121774b6da54ac4b9fd382d25b1fcb2262bc514"},"protected":false},{"name":"spring-security","commit":{"sha":"880f838e4d5d976f09b92d5c295a50ace6c0b01c","url":"https://api.github.com/repos/danvega/springit/commits/880f838e4d5d976f09b92d5c295a50ace6c0b01c"},"protected":false},{"name":"voting","commit":{"sha":"49824fb5852365090300d0420fb5265f412f616f","url":"https://api.github.com/repos/danvega/springit/commits/49824fb5852365090300d0420fb5265f412f616f"},"protected":false}]
+          }
+      }
+  ]
+}

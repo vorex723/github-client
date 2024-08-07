@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/countries/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"859f5a06f7d9f13341fb006ec1d917a00aea046e","url":"https://api.github.com/repos/danvega/countries/commits/859f5a06f7d9f13341fb006ec1d917a00aea046e"},"protected":false}]
+          }
+      }
+  ]
+}

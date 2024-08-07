@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-boot-newbie/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"93e5c89cdeb258b11bfa99a6900b558fd03adf28","url":"https://api.github.com/repos/danvega/spring-boot-newbie/commits/93e5c89cdeb258b11bfa99a6900b558fd03adf28"},"protected":false}]
+          }
+      }
+  ]
+}

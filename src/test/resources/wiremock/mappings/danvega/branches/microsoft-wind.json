@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/microsoft-wind/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"dependabot/npm_and_yarn/acorn-7.1.1","commit":{"sha":"bbc26dfba0bab64205a5105f63151ff8cd1ecfa5","url":"https://api.github.com/repos/danvega/microsoft-wind/commits/bbc26dfba0bab64205a5105f63151ff8cd1ecfa5"},"protected":false},{"name":"dependabot/npm_and_yarn/browserslist-4.16.6","commit":{"sha":"68365f678202c04599ef2db6e571d7de035638be","url":"https://api.github.com/repos/danvega/microsoft-wind/commits/68365f678202c04599ef2db6e571d7de035638be"},"protected":false},{"name":"dependabot/npm_and_yarn/lodash-4.17.21","commit":{"sha":"d12003ad45b4cc02b5814872986b0f80c2e395a1","url":"https://api.github.com/repos/danvega/microsoft-wind/commits/d12003ad45b4cc02b5814872986b0f80c2e395a1"},"protected":false},{"name":"dependabot/npm_and_yarn/minimist-1.2.6","commit":{"sha":"22e0721ce34234c50f785d8d063fab7e92376d53","url":"https://api.github.com/repos/danvega/microsoft-wind/commits/22e0721ce34234c50f785d8d063fab7e92376d53"},"protected":false},{"name":"dependabot/npm_and_yarn/path-parse-1.0.7","commit":{"sha":"8492ac58989c1ba4c43027a1dd871d3cf873fb58","url":"https://api.github.com/repos/danvega/microsoft-wind/commits/8492ac58989c1ba4c43027a1dd871d3cf873fb58"},"protected":false},{"name":"master","commit":{"sha":"e7b25acd945e595f90cf59d6a8217bcd472b2dd7","url":"https://api.github.com/repos/danvega/microsoft-wind/commits/e7b25acd945e595f90cf59d6a8217bcd472b2dd7"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-boot-tailwind/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"c7e5f1de1dd4895cf07de83cf3f2fb9288457435","url":"https://api.github.com/repos/danvega/spring-boot-tailwind/commits/c7e5f1de1dd4895cf07de83cf3f2fb9288457435"},"protected":false}]
+          }
+      }
+  ]
+}

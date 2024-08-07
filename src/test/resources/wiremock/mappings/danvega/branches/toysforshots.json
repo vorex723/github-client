@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/toysforshots/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"develop","commit":{"sha":"6224ffec907d19dc5dd21c39274c461f03464215","url":"https://api.github.com/repos/danvega/toysforshots/commits/6224ffec907d19dc5dd21c39274c461f03464215"},"protected":false},{"name":"master","commit":{"sha":"2d078fff8370da00e5f24b688dde3c152549dac1","url":"https://api.github.com/repos/danvega/toysforshots/commits/2d078fff8370da00e5f24b688dde3c152549dac1"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/multiple-fragments/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"b762cd953209b61a765a211a61500c329fe92a6f","url":"https://api.github.com/repos/danvega/multiple-fragments/commits/b762cd953209b61a765a211a61500c329fe92a6f"},"protected":false}]
+          }
+      }
+  ]
+}

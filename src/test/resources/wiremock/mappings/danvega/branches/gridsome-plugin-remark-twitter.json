@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/gridsome-plugin-remark-twitter/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"dependabot/npm_and_yarn/node-fetch-2.6.7","commit":{"sha":"a4d99f86cb1cab4b7c640d8fb76752d0af63b180","url":"https://api.github.com/repos/danvega/gridsome-plugin-remark-twitter/commits/a4d99f86cb1cab4b7c640d8fb76752d0af63b180"},"protected":false},{"name":"master","commit":{"sha":"9f1445d147823f0307e267f83e133e0ec28c6ace","url":"https://api.github.com/repos/danvega/gridsome-plugin-remark-twitter/commits/9f1445d147823f0307e267f83e133e0ec28c6ace"},"protected":false}]
+          }
+      }
+  ]
+}

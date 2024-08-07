@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-boot-value-annotation/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"320d54b8e788cf3e154e1abead93f15a82756b3a","url":"https://api.github.com/repos/danvega/spring-boot-value-annotation/commits/320d54b8e788cf3e154e1abead93f15a82756b3a"},"protected":false}]
+          }
+      }
+  ]
+}

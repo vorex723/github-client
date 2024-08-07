@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/sneakerhead/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"develop","commit":{"sha":"7293beb1b84054e6c8d66b11f63859d832225b40","url":"https://api.github.com/repos/danvega/sneakerhead/commits/7293beb1b84054e6c8d66b11f63859d832225b40"},"protected":false},{"name":"domain-scaffold","commit":{"sha":"7cd077a7086cc0181662279664562f9de458b087","url":"https://api.github.com/repos/danvega/sneakerhead/commits/7cd077a7086cc0181662279664562f9de458b087"},"protected":false},{"name":"first-steps","commit":{"sha":"2919afe7c262ed078bf223f1d7a6e476e1bf7190","url":"https://api.github.com/repos/danvega/sneakerhead/commits/2919afe7c262ed078bf223f1d7a6e476e1bf7190"},"protected":false},{"name":"master","commit":{"sha":"7293beb1b84054e6c8d66b11f63859d832225b40","url":"https://api.github.com/repos/danvega/sneakerhead/commits/7293beb1b84054e6c8d66b11f63859d832225b40"},"protected":false}]
+          }
+      }
+  ]
+}

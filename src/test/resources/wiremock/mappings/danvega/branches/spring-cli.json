@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-cli/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"0.0.1-M1","commit":{"sha":"c65584e00987d30f272e07f95940e2a2e1e213e1","url":"https://api.github.com/repos/danvega/spring-cli/commits/c65584e00987d30f272e07f95940e2a2e1e213e1"},"protected":false},{"name":"commands","commit":{"sha":"59f42ab65d6b3a5dfcc3ca04a73401457f1336bd","url":"https://api.github.com/repos/danvega/spring-cli/commits/59f42ab65d6b3a5dfcc3ca04a73401457f1336bd"},"protected":false},{"name":"gh-pages","commit":{"sha":"e8829a655f278a356b06f3aaf741782dc4a56a84","url":"https://api.github.com/repos/danvega/spring-cli/commits/e8829a655f278a356b06f3aaf741782dc4a56a84"},"protected":false},{"name":"main","commit":{"sha":"bd5d939b0f72a552d34d939809614e3f1e6d0585","url":"https://api.github.com/repos/danvega/spring-cli/commits/bd5d939b0f72a552d34d939809614e3f1e6d0585"},"protected":false},{"name":"pretty-print","commit":{"sha":"1626ca1012fef76b513a2b1e2f1fe6cf55079001","url":"https://api.github.com/repos/danvega/spring-cli/commits/1626ca1012fef76b513a2b1e2f1fe6cf55079001"},"protected":false},{"name":"project-catalog-integration","commit":{"sha":"4fb720766cf5217859e634dd7f5a4a708590f9bd","url":"https://api.github.com/repos/danvega/spring-cli/commits/4fb720766cf5217859e634dd7f5a4a708590f9bd"},"protected":false},{"name":"template-feature","commit":{"sha":"45ccaf4551e95ae7f1c83c9e7478d673824d1348","url":"https://api.github.com/repos/danvega/spring-cli/commits/45ccaf4551e95ae7f1c83c9e7478d673824d1348"},"protected":false},{"name":"testing-2","commit":{"sha":"2be3ca9264e293ae8e4d54264ee6df0680513db4","url":"https://api.github.com/repos/danvega/spring-cli/commits/2be3ca9264e293ae8e4d54264ee6df0680513db4"},"protected":false}]
+          }
+      }
+  ]
+}

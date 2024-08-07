@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/cfaddict.github.io/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"5a069a5b1d3e4e6b7aec6fb053bc17ddfaf63546","url":"https://api.github.com/repos/danvega/cfaddict.github.io/commits/5a069a5b1d3e4e6b7aec6fb053bc17ddfaf63546"},"protected":false}]
+          }
+      }
+  ]
+}

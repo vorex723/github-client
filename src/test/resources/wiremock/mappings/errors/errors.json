@@ -1,0 +1,38 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/users/not-existing-user/repos?page=1"
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/repos/repos#list-repositories-for-a-user",
+          "status": "404"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/users/http500/repos?page=1"
+      },
+      "response": {
+        "status": 500,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "message": "Something went wrong",
+          "documentation_url": "https://docs.github.com/rest/repos/repos#list-repositories-for-a-user",
+          "status": "500"
+        }
+      }
+    }
+  ]
+}

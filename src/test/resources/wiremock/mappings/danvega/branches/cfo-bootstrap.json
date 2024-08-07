@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/cfo-bootstrap/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"5e76bed794aa1a545ff577e311014b927ae9be48","url":"https://api.github.com/repos/danvega/cfo-bootstrap/commits/5e76bed794aa1a545ff577e311014b927ae9be48"},"protected":false}]
+          }
+      }
+  ]
+}

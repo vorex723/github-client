@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/h2-demo/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"478c4cd32d3ea6c7e76552e8a3d6edc3d4098fd8","url":"https://api.github.com/repos/danvega/h2-demo/commits/478c4cd32d3ea6c7e76552e8a3d6edc3d4098fd8"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/hello-vaadin/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"09c82f06354584b0b2acc8e64276767caf07d1c1","url":"https://api.github.com/repos/danvega/hello-vaadin/commits/09c82f06354584b0b2acc8e64276767caf07d1c1"},"protected":false}]
+          }
+      }
+  ]
+}

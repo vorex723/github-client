@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/books-starter-code/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"dependency-injection","commit":{"sha":"b289d3d232e911f56f5e4e0c13708361384d35af","url":"https://api.github.com/repos/danvega/books-starter-code/commits/b289d3d232e911f56f5e4e0c13708361384d35af"},"protected":false},{"name":"dependency-injection-solution","commit":{"sha":"60429a7f54d8283ce5e1e6092096f039c791598c","url":"https://api.github.com/repos/danvega/books-starter-code/commits/60429a7f54d8283ce5e1e6092096f039c791598c"},"protected":false},{"name":"exception-handling","commit":{"sha":"b88e333fc2dd37e6c133279702ef2b505932e8eb","url":"https://api.github.com/repos/danvega/books-starter-code/commits/b88e333fc2dd37e6c133279702ef2b505932e8eb"},"protected":false},{"name":"exception-handling-solution","commit":{"sha":"93200313a510a341b065d1ddf633c352ec3903b9","url":"https://api.github.com/repos/danvega/books-starter-code/commits/93200313a510a341b065d1ddf633c352ec3903b9"},"protected":false},{"name":"master","commit":{"sha":"26d463d91da091b42c85f9c6a07e6ad896561efb","url":"https://api.github.com/repos/danvega/books-starter-code/commits/26d463d91da091b42c85f9c6a07e6ad896561efb"},"protected":false}]
+          }
+      }
+  ]
+}

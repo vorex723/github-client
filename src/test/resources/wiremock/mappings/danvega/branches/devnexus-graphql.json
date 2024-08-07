@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/devnexus-graphql/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"160ccc6458c58aad625d85b4ec36c13ecf745830","url":"https://api.github.com/repos/danvega/devnexus-graphql/commits/160ccc6458c58aad625d85b4ec36c13ecf745830"},"protected":false},{"name":"start-here","commit":{"sha":"d0bddf0d72fb23da42bacb864e7cbd935ad96fab","url":"https://api.github.com/repos/danvega/devnexus-graphql/commits/d0bddf0d72fb23da42bacb864e7cbd935ad96fab"},"protected":false}]
+          }
+      }
+  ]
+}

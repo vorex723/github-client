@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/hello-htmx/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"084776c1a890be5b5cbec4c97bfdc017a0efb52e","url":"https://api.github.com/repos/danvega/hello-htmx/commits/084776c1a890be5b5cbec4c97bfdc017a0efb52e"},"protected":false},{"name":"start-here","commit":{"sha":"30a95b9b2ec94ad1cff7c5f38f7fec1e60227e79","url":"https://api.github.com/repos/danvega/hello-htmx/commits/30a95b9b2ec94ad1cff7c5f38f7fec1e60227e79"},"protected":false}]
+          }
+      }
+  ]
+}

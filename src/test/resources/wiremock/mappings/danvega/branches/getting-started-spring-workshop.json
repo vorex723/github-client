@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/getting-started-spring-workshop/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"0c918c9a42642cd8f633455fa6b49b7dc51d0997","url":"https://api.github.com/repos/danvega/getting-started-spring-workshop/commits/0c918c9a42642cd8f633455fa6b49b7dc51d0997"},"protected":false}]
+          }
+      }
+  ]
+}

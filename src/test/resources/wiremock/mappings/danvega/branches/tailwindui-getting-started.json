@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/tailwindui-getting-started/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"dependabot/npm_and_yarn/browserslist-4.16.6","commit":{"sha":"13a17d72304cbcd66507a5f706b159814190cd5f","url":"https://api.github.com/repos/danvega/tailwindui-getting-started/commits/13a17d72304cbcd66507a5f706b159814190cd5f"},"protected":false},{"name":"dependabot/npm_and_yarn/lodash-4.17.21","commit":{"sha":"440d743209cf96fa9abef36a193cb4272815610f","url":"https://api.github.com/repos/danvega/tailwindui-getting-started/commits/440d743209cf96fa9abef36a193cb4272815610f"},"protected":false},{"name":"dependabot/npm_and_yarn/minimist-1.2.6","commit":{"sha":"bf7c5c3b9140cb3ed99dcb80fd979486ebaf9966","url":"https://api.github.com/repos/danvega/tailwindui-getting-started/commits/bf7c5c3b9140cb3ed99dcb80fd979486ebaf9966"},"protected":false},{"name":"dependabot/npm_and_yarn/path-parse-1.0.7","commit":{"sha":"4aa32a707021962fccbc46ecb7194036e230d340","url":"https://api.github.com/repos/danvega/tailwindui-getting-started/commits/4aa32a707021962fccbc46ecb7194036e230d340"},"protected":false},{"name":"master","commit":{"sha":"6a0090281c06af3d269c5c7e8bdd0f2c1b0e3112","url":"https://api.github.com/repos/danvega/tailwindui-getting-started/commits/6a0090281c06af3d269c5c7e8bdd0f2c1b0e3112"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/html-template-article/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"cb6314e8404403f9d5fa580d91ecdf1db5219fe1","url":"https://api.github.com/repos/danvega/html-template-article/commits/cb6314e8404403f9d5fa580d91ecdf1db5219fe1"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/getting-started-spring-boot-2/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"af26c0941f052cb8ffab962ef0be9c8d65e5881c","url":"https://api.github.com/repos/danvega/getting-started-spring-boot-2/commits/af26c0941f052cb8ffab962ef0be9c8d65e5881c"},"protected":false}]
+          }
+      }
+  ]
+}

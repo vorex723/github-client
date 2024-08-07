@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/reflection-testing/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"fe4341b90796316cb5ac4facf2e6553990c3d858","url":"https://api.github.com/repos/danvega/reflection-testing/commits/fe4341b90796316cb5ac4facf2e6553990c3d858"},"protected":false}]
+          }
+      }
+  ]
+}

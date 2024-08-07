@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/bam/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"4322ba4589e4a909a3e54831773bb37153908792","url":"https://api.github.com/repos/danvega/bam/commits/4322ba4589e4a909a3e54831773bb37153908792"},"protected":false}]
+          }
+      }
+  ]
+}

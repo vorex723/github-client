@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/UrlMappingsDemo/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"5b281136a7b680c955444c5d6f34f6bd27ae8070","url":"https://api.github.com/repos/danvega/UrlMappingsDemo/commits/5b281136a7b680c955444c5d6f34f6bd27ae8070"},"protected":false}]
+          }
+      }
+  ]
+}

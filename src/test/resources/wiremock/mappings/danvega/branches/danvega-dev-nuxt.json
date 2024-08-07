@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/danvega-dev-nuxt/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"feedme","commit":{"sha":"1fd4919a100dc07ced8aed8aa1f6ec156ba5d06b","url":"https://api.github.com/repos/danvega/danvega-dev-nuxt/commits/1fd4919a100dc07ced8aed8aa1f6ec156ba5d06b"},"protected":false},{"name":"main","commit":{"sha":"57129adf7f2cc26b7806af7fb149761b9c64b0be","url":"https://api.github.com/repos/danvega/danvega-dev-nuxt/commits/57129adf7f2cc26b7806af7fb149761b9c64b0be"},"protected":false}]
+          }
+      }
+  ]
+}

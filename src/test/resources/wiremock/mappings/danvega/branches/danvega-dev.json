@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/danvega-dev/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"components-in-markdown","commit":{"sha":"815349bf0d31c8d58c8d6cff6c1520853460f573","url":"https://api.github.com/repos/danvega/danvega-dev/commits/815349bf0d31c8d58c8d6cff6c1520853460f573"},"protected":false},{"name":"dependabot/npm_and_yarn/decode-uri-component-0.2.2","commit":{"sha":"19e17fef93200705284fe8f5a106a1b9f60b9864","url":"https://api.github.com/repos/danvega/danvega-dev/commits/19e17fef93200705284fe8f5a106a1b9f60b9864"},"protected":false},{"name":"dependabot/npm_and_yarn/express-4.18.2","commit":{"sha":"21a354dd026dfc2aec5049fe4f5c48a1b2038161","url":"https://api.github.com/repos/danvega/danvega-dev/commits/21a354dd026dfc2aec5049fe4f5c48a1b2038161"},"protected":false},{"name":"dependabot/npm_and_yarn/moment-2.29.4","commit":{"sha":"ba9727a7256ed1992a66c75a545e3414913fec0d","url":"https://api.github.com/repos/danvega/danvega-dev/commits/ba9727a7256ed1992a66c75a545e3414913fec0d"},"protected":false},{"name":"dependabot/npm_and_yarn/qs-6.5.3","commit":{"sha":"dd648d7ca3440efef6a19d8c00cd48beebd350c2","url":"https://api.github.com/repos/danvega/danvega-dev/commits/dd648d7ca3440efef6a19d8c00cd48beebd350c2"},"protected":false},{"name":"disqus","commit":{"sha":"4af732881d7388eed5608c7b9087c246f33acb90","url":"https://api.github.com/repos/danvega/danvega-dev/commits/4af732881d7388eed5608c7b9087c246f33acb90"},"protected":false},{"name":"drafts","commit":{"sha":"2a5d7080f61520a4fe16fb62764484ecc5cec591","url":"https://api.github.com/repos/danvega/danvega-dev/commits/2a5d7080f61520a4fe16fb62764484ecc5cec591"},"protected":false},{"name":"feature/talks","commit":{"sha":"066f5364c795b42587b13944aea8d824bb006add","url":"https://api.github.com/repos/danvega/danvega-dev/commits/066f5364c795b42587b13944aea8d824bb006add"},"protected":false},{"name":"live-streams","commit":{"sha":"b71f3b74e7dd7f2395e5954fcc982f0a27433668","url":"https://api.github.com/repos/danvega/danvega-dev/commits/b71f3b74e7dd7f2395e5954fcc982f0a27433668"},"protected":false},{"name":"master","commit":{"sha":"ef173518eff5269905fcf00cd7b8ebaaf0617467","url":"https://api.github.com/repos/danvega/danvega-dev/commits/ef173518eff5269905fcf00cd7b8ebaaf0617467"},"protected":false},{"name":"new-layout","commit":{"sha":"cb5ed974a8fb8336423d9e864af661a51a879e23","url":"https://api.github.com/repos/danvega/danvega-dev/commits/cb5ed974a8fb8336423d9e864af661a51a879e23"},"protected":false},{"name":"newsletter","commit":{"sha":"1fa6f7de5ffa479ea91a7227e1e132aaebd08105","url":"https://api.github.com/repos/danvega/danvega-dev/commits/1fa6f7de5ffa479ea91a7227e1e132aaebd08105"},"protected":false},{"name":"playground","commit":{"sha":"4cdb84c78dfc75a00930b6d154afb7b36016231c","url":"https://api.github.com/repos/danvega/danvega-dev/commits/4cdb84c78dfc75a00930b6d154afb7b36016231c"},"protected":false}]
+          }
+      }
+  ]
+}

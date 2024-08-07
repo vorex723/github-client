@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/vme-blog/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"9ef3bc5d8cababb0999fac9454be28448ae21cc7","url":"https://api.github.com/repos/danvega/vme-blog/commits/9ef3bc5d8cababb0999fac9454be28448ae21cc7"},"protected":false}]
+          }
+      }
+  ]
+}

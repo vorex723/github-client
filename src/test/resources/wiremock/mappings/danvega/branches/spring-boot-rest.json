@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-boot-rest/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"7c5f518460a7928996ff6d39d2084163ea6dcf31","url":"https://api.github.com/repos/danvega/spring-boot-rest/commits/7c5f518460a7928996ff6d39d2084163ea6dcf31"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/hello-java-17/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"a7ed56e5d020930015a05935abf17902cece1012","url":"https://api.github.com/repos/danvega/hello-java-17/commits/a7ed56e5d020930015a05935abf17902cece1012"},"protected":false}]
+          }
+      }
+  ]
+}

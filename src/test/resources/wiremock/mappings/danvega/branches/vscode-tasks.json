@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/vscode-tasks/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"98a68755d87c6b912a78741e2337064ffc0a7e4f","url":"https://api.github.com/repos/danvega/vscode-tasks/commits/98a68755d87c6b912a78741e2337064ffc0a7e4f"},"protected":false}]
+          }
+      }
+  ]
+}

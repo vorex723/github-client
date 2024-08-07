@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/vuepress-code-block-issue/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"e4f47e015f19052cb296857f9635e53f46303409","url":"https://api.github.com/repos/danvega/vuepress-code-block-issue/commits/e4f47e015f19052cb296857f9635e53f46303409"},"protected":false}]
+          }
+      }
+  ]
+}

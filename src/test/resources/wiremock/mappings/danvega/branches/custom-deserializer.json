@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/custom-deserializer/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"d58d916a07b36fdde1edaaafbdd2eb0238c62ac1","url":"https://api.github.com/repos/danvega/custom-deserializer/commits/d58d916a07b36fdde1edaaafbdd2eb0238c62ac1"},"protected":false}]
+          }
+      }
+  ]
+}

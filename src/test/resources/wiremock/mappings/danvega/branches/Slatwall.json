@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/Slatwall/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"develop","commit":{"sha":"249d7c0aed377fdb47182eccb7e95383bbea6047","url":"https://api.github.com/repos/danvega/Slatwall/commits/249d7c0aed377fdb47182eccb7e95383bbea6047"},"protected":false},{"name":"develop-4","commit":{"sha":"8714ce24978ae16aad57a9fc7992f81de97a30a8","url":"https://api.github.com/repos/danvega/Slatwall/commits/8714ce24978ae16aad57a9fc7992f81de97a30a8"},"protected":false},{"name":"feature-addSkuInMuraToSWProductFix","commit":{"sha":"1dc4c1d7ffd5d5b5628412bb2afa6ffc794cc8bc","url":"https://api.github.com/repos/danvega/Slatwall/commits/1dc4c1d7ffd5d5b5628412bb2afa6ffc794cc8bc"},"protected":false},{"name":"feature-auditversioning","commit":{"sha":"38ae1e18ba8ccedc38777049654c023467aa8931","url":"https://api.github.com/repos/danvega/Slatwall/commits/38ae1e18ba8ccedc38777049654c023467aa8931"},"protected":false},{"name":"feature-collections","commit":{"sha":"8e324a63c7fef4d9b5672d8d081c113e26ba1922","url":"https://api.github.com/repos/danvega/Slatwall/commits/8e324a63c7fef4d9b5672d8d081c113e26ba1922"},"protected":false},{"name":"feature-js","commit":{"sha":"ec45dd74525c6331d2631e6cd75880415a4e1c17","url":"https://api.github.com/repos/danvega/Slatwall/commits/ec45dd74525c6331d2631e6cd75880415a4e1c17"},"protected":false},{"name":"feature-offsetOrderPayments","commit":{"sha":"dc67f5ee45beb235bc476fffc35562ff8f945850","url":"https://api.github.com/repos/danvega/Slatwall/commits/dc67f5ee45beb235bc476fffc35562ff8f945850"},"protected":false},{"name":"feature-taxintegration","commit":{"sha":"9723da07b9f837cecfc731bb8fa3651ab22ed642","url":"https://api.github.com/repos/danvega/Slatwall/commits/9723da07b9f837cecfc731bb8fa3651ab22ed642"},"protected":false},{"name":"feature-taxintegration-ds","commit":{"sha":"f5fa8ef1a1c733c55e554d2044ca9f7be65de224","url":"https://api.github.com/repos/danvega/Slatwall/commits/f5fa8ef1a1c733c55e554d2044ca9f7be65de224"},"protected":false},{"name":"hotfix-addOneDayToDateRange","commit":{"sha":"e41ed9e3d01e3e1f5e4350ac9ec4ad3d1e0c2a82","url":"https://api.github.com/repos/danvega/Slatwall/commits/e41ed9e3d01e3e1f5e4350ac9ec4ad3d1e0c2a82"},"protected":false},{"name":"hotfix-addSkuToExistProd","commit":{"sha":"c42a6cdb0529c0bc9fc6d9cd982added1e750882","url":"https://api.github.com/repos/danvega/Slatwall/commits/c42a6cdb0529c0bc9fc6d9cd982added1e750882"},"protected":false},{"name":"hotfix-imagepaths","commit":{"sha":"d548d4545861c0fd1acbe4dfa276b65517a65a60","url":"https://api.github.com/repos/danvega/Slatwall/commits/d548d4545861c0fd1acbe4dfa276b65517a65a60"},"protected":false},{"name":"hotfix-paypalexpress","commit":{"sha":"70d9eaa46108efb7c674e8c5b8d14465ff083b5d","url":"https://api.github.com/repos/danvega/Slatwall/commits/70d9eaa46108efb7c674e8c5b8d14465ff083b5d"},"protected":false},{"name":"master","commit":{"sha":"ec3fa24d3d5075c65b413053340741773f2db25a","url":"https://api.github.com/repos/danvega/Slatwall/commits/ec3fa24d3d5075c65b413053340741773f2db25a"},"protected":false}]
+          }
+      }
+  ]
+}

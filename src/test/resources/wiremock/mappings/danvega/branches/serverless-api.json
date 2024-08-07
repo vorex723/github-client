@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/serverless-api/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"8ffdecb0e9351bf1d34ceef5d811c7b278fe44aa","url":"https://api.github.com/repos/danvega/serverless-api/commits/8ffdecb0e9351bf1d34ceef5d811c7b278fe44aa"},"protected":false}]
+          }
+      }
+  ]
+}

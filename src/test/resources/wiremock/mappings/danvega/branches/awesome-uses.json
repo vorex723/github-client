@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/awesome-uses/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"back-to-top","commit":{"sha":"193a41d1affc017f7607f3c828f9d7c091683691","url":"https://api.github.com/repos/danvega/awesome-uses/commits/193a41d1affc017f7607f3c828f9d7c091683691"},"protected":false},{"name":"iamandrewluca-patch-1","commit":{"sha":"83c46b87a8dd8bbd387b9795f18c9099f0ccfc72","url":"https://api.github.com/repos/danvega/awesome-uses/commits/83c46b87a8dd8bbd387b9795f18c9099f0ccfc72"},"protected":false},{"name":"master","commit":{"sha":"9dd3ea28c6e91000f0f952dd124d8220ada7e036","url":"https://api.github.com/repos/danvega/awesome-uses/commits/9dd3ea28c6e91000f0f952dd124d8220ada7e036"},"protected":false}]
+          }
+      }
+  ]
+}

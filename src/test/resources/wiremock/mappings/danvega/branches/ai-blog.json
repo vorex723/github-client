@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/ai-blog/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"b5857b0023600603203afa75abce9609127a8524","url":"https://api.github.com/repos/danvega/ai-blog/commits/b5857b0023600603203afa75abce9609127a8524"},"protected":false}]
+          }
+      }
+  ]
+}

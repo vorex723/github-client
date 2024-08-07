@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/generator-jhipster/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"jh-react","commit":{"sha":"83e4e057460eb3874699ae24530bdc35b2989d06","url":"https://api.github.com/repos/danvega/generator-jhipster/commits/83e4e057460eb3874699ae24530bdc35b2989d06"},"protected":false},{"name":"jh-reactive-spring","commit":{"sha":"158c1715147dc5708e63c301b18ad852571c87fc","url":"https://api.github.com/repos/danvega/generator-jhipster/commits/158c1715147dc5708e63c301b18ad852571c87fc"},"protected":false},{"name":"master","commit":{"sha":"bc18ed8c6a100ca3fbb422ed4e00fa8142966521","url":"https://api.github.com/repos/danvega/generator-jhipster/commits/bc18ed8c6a100ca3fbb422ed4e00fa8142966521"},"protected":false},{"name":"ng2-ui-router","commit":{"sha":"872933b78dfa8bf8e2a9f8eee7d084aa6946242b","url":"https://api.github.com/repos/danvega/generator-jhipster/commits/872933b78dfa8bf8e2a9f8eee7d084aa6946242b"},"protected":false},{"name":"v1.x_maintenance","commit":{"sha":"fe9f61881f4d8216dda97431594897e3fe0dc3a3","url":"https://api.github.com/repos/danvega/generator-jhipster/commits/fe9f61881f4d8216dda97431594897e3fe0dc3a3"},"protected":false},{"name":"v2.x_maintenance","commit":{"sha":"91b2a45e8d03b18f625ac1b12c51f8da26b2ed9a","url":"https://api.github.com/repos/danvega/generator-jhipster/commits/91b2a45e8d03b18f625ac1b12c51f8da26b2ed9a"},"protected":false},{"name":"v3.x_maintenance","commit":{"sha":"a7481e79fcb69f9558380b80da0e77cd3f5bde12","url":"https://api.github.com/repos/danvega/generator-jhipster/commits/a7481e79fcb69f9558380b80da0e77cd3f5bde12"},"protected":false},{"name":"verbose-upgrade","commit":{"sha":"ee3b238698330c14423286b6818e0c44f8902462","url":"https://api.github.com/repos/danvega/generator-jhipster/commits/ee3b238698330c14423286b6818e0c44f8902462"},"protected":false}]
+          }
+      }
+  ]
+}

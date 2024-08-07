@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/chatgpt-clone/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"0b05d76766d5da46b034af1a7ddab3e8adc72d8d","url":"https://api.github.com/repos/danvega/chatgpt-clone/commits/0b05d76766d5da46b034af1a7ddab3e8adc72d8d"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/therealdanvega-static/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"cfa51a0a692d0c3e2f453f9263a149faaa3badd0","url":"https://api.github.com/repos/danvega/therealdanvega-static/commits/cfa51a0a692d0c3e2f453f9263a149faaa3badd0"},"protected":false}]
+          }
+      }
+  ]
+}

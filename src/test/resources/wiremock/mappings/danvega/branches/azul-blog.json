@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/azul-blog/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"4b3eb9b15f90a7674203204fa60905b09ac26135","url":"https://api.github.com/repos/danvega/azul-blog/commits/4b3eb9b15f90a7674203204fa60905b09ac26135"},"protected":false}]
+          }
+      }
+  ]
+}

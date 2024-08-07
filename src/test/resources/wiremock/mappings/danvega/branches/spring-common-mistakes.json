@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-common-mistakes/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"five-finish","commit":{"sha":"6ec0452e64f8c90971fb5ddd9f3cdc14b5c59c48","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/6ec0452e64f8c90971fb5ddd9f3cdc14b5c59c48"},"protected":false},{"name":"five-start","commit":{"sha":"62557c1649cdbd75ce632ab887c893b09646c543","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/62557c1649cdbd75ce632ab887c893b09646c543"},"protected":false},{"name":"four-finish","commit":{"sha":"a7af863c9cfcc67ec6fb9fb0fb3c0d644b52021a","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/a7af863c9cfcc67ec6fb9fb0fb3c0d644b52021a"},"protected":false},{"name":"four-start","commit":{"sha":"5e00e9f6dcb2c556ab24a9fbc6965f29c48312bc","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/5e00e9f6dcb2c556ab24a9fbc6965f29c48312bc"},"protected":false},{"name":"main","commit":{"sha":"6ec0452e64f8c90971fb5ddd9f3cdc14b5c59c48","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/6ec0452e64f8c90971fb5ddd9f3cdc14b5c59c48"},"protected":false},{"name":"one-finish","commit":{"sha":"e2ab2ad93874977bfd74da0aa6855aa71fa8dc1a","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/e2ab2ad93874977bfd74da0aa6855aa71fa8dc1a"},"protected":false},{"name":"one-start","commit":{"sha":"fdbe1fdc0b001310857e9a696e9684d45b8727b4","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/fdbe1fdc0b001310857e9a696e9684d45b8727b4"},"protected":false},{"name":"three-finish","commit":{"sha":"0dff456babe9ee025e89676786331e66bcbec217","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/0dff456babe9ee025e89676786331e66bcbec217"},"protected":false},{"name":"three-start","commit":{"sha":"97a69afb13bec792728cb59fc96919d3345442dd","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/97a69afb13bec792728cb59fc96919d3345442dd"},"protected":false},{"name":"two-finish","commit":{"sha":"80788ba73d1a1693ae936031a359de2831cc836c","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/80788ba73d1a1693ae936031a359de2831cc836c"},"protected":false},{"name":"two-start","commit":{"sha":"08d0799f9321ac03ffb1d81a5dd16f84bcc8de51","url":"https://api.github.com/repos/danvega/spring-common-mistakes/commits/08d0799f9321ac03ffb1d81a5dd16f84bcc8de51"},"protected":false}]
+          }
+      }
+  ]
+}

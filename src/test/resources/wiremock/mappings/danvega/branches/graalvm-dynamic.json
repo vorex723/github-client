@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/graalvm-dynamic/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"318de9ca4279138e7eac5600e7e6a116bd87fc8d","url":"https://api.github.com/repos/danvega/graalvm-dynamic/commits/318de9ca4279138e7eac5600e7e6a116bd87fc8d"},"protected":false}]
+          }
+      }
+  ]
+}

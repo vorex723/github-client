@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/custom-annotations/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"6dc10f44ba4b1cd59142f4a66bf90e44d85da1ce","url":"https://api.github.com/repos/danvega/custom-annotations/commits/6dc10f44ba4b1cd59142f4a66bf90e44d85da1ce"},"protected":false}]
+          }
+      }
+  ]
+}

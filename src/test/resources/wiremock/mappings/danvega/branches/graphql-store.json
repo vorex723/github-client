@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/graphql-store/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"7363abcee7c93c0368df9a61bfce6149e2fc756a","url":"https://api.github.com/repos/danvega/graphql-store/commits/7363abcee7c93c0368df9a61bfce6149e2fc756a"},"protected":true},{"name":"security","commit":{"sha":"7971d37a0b255ce9e85889de8fbbe22db0947fe1","url":"https://api.github.com/repos/danvega/graphql-store/commits/7971d37a0b255ce9e85889de8fbbe22db0947fe1"},"protected":false},{"name":"start-here","commit":{"sha":"0d6f856dfe316ff551dd2cb1a878c30bb0c4416e","url":"https://api.github.com/repos/danvega/graphql-store/commits/0d6f856dfe316ff551dd2cb1a878c30bb0c4416e"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/nuxt-spring-graphql-blog/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"26d17203e3a9ce6df89b8700105196a69e04f6da","url":"https://api.github.com/repos/danvega/nuxt-spring-graphql-blog/commits/26d17203e3a9ce6df89b8700105196a69e04f6da"},"protected":false}]
+          }
+      }
+  ]
+}

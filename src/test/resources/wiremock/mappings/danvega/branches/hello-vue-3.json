@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/hello-vue-3/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"f5d8641f6ea8cd35fc3636b4e8aaa0b5a2d2a1b2","url":"https://api.github.com/repos/danvega/hello-vue-3/commits/f5d8641f6ea8cd35fc3636b4e8aaa0b5a2d2a1b2"},"protected":false}]
+          }
+      }
+  ]
+}

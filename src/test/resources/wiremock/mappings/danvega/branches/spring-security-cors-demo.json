@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-security-cors-demo/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"5c8930a8ef1b2d14fc24f5077c04b8c610ebe7e1","url":"https://api.github.com/repos/danvega/spring-security-cors-demo/commits/5c8930a8ef1b2d14fc24f5077c04b8c610ebe7e1"},"protected":false}]
+          }
+      }
+  ]
+}

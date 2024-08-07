@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/hello-lambda/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"2ab66cfd81a1bc60349d9376994c7575ec4f73d4","url":"https://api.github.com/repos/danvega/hello-lambda/commits/2ab66cfd81a1bc60349d9376994c7575ec4f73d4"},"protected":false}]
+          }
+      }
+  ]
+}

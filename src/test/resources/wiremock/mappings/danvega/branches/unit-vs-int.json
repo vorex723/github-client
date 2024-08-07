@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/unit-vs-int/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"7d698ede6c5e193f8d5fdb8204257bb19b6edbd4","url":"https://api.github.com/repos/danvega/unit-vs-int/commits/7d698ede6c5e193f8d5fdb8204257bb19b6edbd4"},"protected":false}]
+          }
+      }
+  ]
+}

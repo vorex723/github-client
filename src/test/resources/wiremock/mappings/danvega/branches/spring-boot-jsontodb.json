@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-boot-jsontodb/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"fbf90e2ad0aafd82a60afef14cb944f6ae553b59","url":"https://api.github.com/repos/danvega/spring-boot-jsontodb/commits/fbf90e2ad0aafd82a60afef14cb944f6ae553b59"},"protected":false}]
+          }
+      }
+  ]
+}

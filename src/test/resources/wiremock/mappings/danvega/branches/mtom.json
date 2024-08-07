@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/mtom/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"1fcb94edcdd214b399ab5ae34d43e221e820ae18","url":"https://api.github.com/repos/danvega/mtom/commits/1fcb94edcdd214b399ab5ae34d43e221e820ae18"},"protected":false}]
+          }
+      }
+  ]
+}

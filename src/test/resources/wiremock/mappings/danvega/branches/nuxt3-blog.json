@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/nuxt3-blog/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"3a818d2e00f87c44e9e7bde6d5f8e24be3bf9fd0","url":"https://api.github.com/repos/danvega/nuxt3-blog/commits/3a818d2e00f87c44e9e7bde6d5f8e24be3bf9fd0"},"protected":false}]
+          }
+      }
+  ]
+}

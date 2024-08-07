@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/vueconfus-2022/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"1f2101c23f45892510bb5fc29e0684e3202b214d","url":"https://api.github.com/repos/danvega/vueconfus-2022/commits/1f2101c23f45892510bb5fc29e0684e3202b214d"},"protected":false}]
+          }
+      }
+  ]
+}

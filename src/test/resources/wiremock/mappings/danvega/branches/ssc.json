@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/ssc/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"d794ed68f7b4f101f7e7000c7b8387546d0388a1","url":"https://api.github.com/repos/danvega/ssc/commits/d794ed68f7b4f101f7e7000c7b8387546d0388a1"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/sb3/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"4dfd08509ea2a8e73c2e6eb25e81f85d6d2875f3","url":"https://api.github.com/repos/danvega/sb3/commits/4dfd08509ea2a8e73c2e6eb25e81f85d6d2875f3"},"protected":false},{"name":"starter","commit":{"sha":"195f7d07a9cd931978d4614bde32427af94003d2","url":"https://api.github.com/repos/danvega/sb3/commits/195f7d07a9cd931978d4614bde32427af94003d2"},"protected":false}]
+          }
+      }
+  ]
+}

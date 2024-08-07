@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/hello-security/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"9544187167d6caea6edb05b3115d3845de0373ab","url":"https://api.github.com/repos/danvega/hello-security/commits/9544187167d6caea6edb05b3115d3845de0373ab"},"protected":false}]
+          }
+      }
+  ]
+}

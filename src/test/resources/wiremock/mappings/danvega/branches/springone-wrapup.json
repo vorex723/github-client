@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/springone-wrapup/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"8311033a224fd7a5e79168876bfa9f6593dfd6ca","url":"https://api.github.com/repos/danvega/springone-wrapup/commits/8311033a224fd7a5e79168876bfa9f6593dfd6ca"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/groovy-website/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"89e6485ba17f3a267d19e6d1f06fa082409fccdf","url":"https://api.github.com/repos/danvega/groovy-website/commits/89e6485ba17f3a267d19e6d1f06fa082409fccdf"},"protected":false},{"name":"revert-47-patch-1","commit":{"sha":"e9453428f62853ce07331dcd5235f81ce5b37245","url":"https://api.github.com/repos/danvega/groovy-website/commits/e9453428f62853ce07331dcd5235f81ce5b37245"},"protected":false}]
+          }
+      }
+  ]
+}

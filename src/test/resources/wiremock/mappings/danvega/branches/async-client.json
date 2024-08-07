@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/async-client/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"404e08294b3c12861709a42590fb475415b0996d","url":"https://api.github.com/repos/danvega/async-client/commits/404e08294b3c12861709a42590fb475415b0996d"},"protected":false}]
+          }
+      }
+  ]
+}

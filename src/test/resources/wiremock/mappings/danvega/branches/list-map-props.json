@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/list-map-props/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"78c87a0e7b2f0cf9ef55d3cab9ce6ebfe636aa41","url":"https://api.github.com/repos/danvega/list-map-props/commits/78c87a0e7b2f0cf9ef55d3cab9ce6ebfe636aa41"},"protected":false}]
+          }
+      }
+  ]
+}

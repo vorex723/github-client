@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/jwt-auth-demo/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"a5050f0dd35c3cd73443fe1381ed8ce8c1863482","url":"https://api.github.com/repos/danvega/jwt-auth-demo/commits/a5050f0dd35c3cd73443fe1381ed8ce8c1863482"},"protected":false}]
+          }
+      }
+  ]
+}

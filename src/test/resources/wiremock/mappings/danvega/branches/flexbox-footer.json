@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/flexbox-footer/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"4d2d6800e6498edf3eb4c17f2955eb853d4775de","url":"https://api.github.com/repos/danvega/flexbox-footer/commits/4d2d6800e6498edf3eb4c17f2955eb853d4775de"},"protected":false}]
+          }
+      }
+  ]
+}

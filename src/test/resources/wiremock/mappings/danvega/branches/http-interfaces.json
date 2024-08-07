@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/http-interfaces/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"a7b90fb03ba40749d30cf93ebb4239abb6d5889e","url":"https://api.github.com/repos/danvega/http-interfaces/commits/a7b90fb03ba40749d30cf93ebb4239abb6d5889e"},"protected":false}]
+          }
+      }
+  ]
+}

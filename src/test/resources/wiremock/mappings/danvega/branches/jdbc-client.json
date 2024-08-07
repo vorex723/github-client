@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/jdbc-client/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"d63ebeb778b2fee1766042fef98bf4eb4355ffa1","url":"https://api.github.com/repos/danvega/jdbc-client/commits/d63ebeb778b2fee1766042fef98bf4eb4355ffa1"},"protected":false}]
+          }
+      }
+  ]
+}

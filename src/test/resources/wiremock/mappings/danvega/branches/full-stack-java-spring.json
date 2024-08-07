@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/full-stack-java-spring/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"04aa5293ba76fb3ae8a1ebade5b2ec42e638c060","url":"https://api.github.com/repos/danvega/full-stack-java-spring/commits/04aa5293ba76fb3ae8a1ebade5b2ec42e638c060"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/solitary/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"30f7a3f6a0223306c1c7e06f6ed636ef0355458a","url":"https://api.github.com/repos/danvega/solitary/commits/30f7a3f6a0223306c1c7e06f6ed636ef0355458a"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-angular2-tasks/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"7780a43300eed5fcd39fc9767659fada2e394e2b","url":"https://api.github.com/repos/danvega/spring-angular2-tasks/commits/7780a43300eed5fcd39fc9767659fada2e394e2b"},"protected":false}]
+          }
+      }
+  ]
+}

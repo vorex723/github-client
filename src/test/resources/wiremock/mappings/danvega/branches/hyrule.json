@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/hyrule/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"development","commit":{"sha":"cd4aaffd991294b6688a411ec52e1b330db731f2","url":"https://api.github.com/repos/danvega/hyrule/commits/cd4aaffd991294b6688a411ec52e1b330db731f2"},"protected":false},{"name":"master","commit":{"sha":"05150093af4e05e18bed910bc9b128eb4df3d404","url":"https://api.github.com/repos/danvega/hyrule/commits/05150093af4e05e18bed910bc9b128eb4df3d404"},"protected":false},{"name":"release-1.0","commit":{"sha":"cd4aaffd991294b6688a411ec52e1b330db731f2","url":"https://api.github.com/repos/danvega/hyrule/commits/cd4aaffd991294b6688a411ec52e1b330db731f2"},"protected":false}]
+          }
+      }
+  ]
+}

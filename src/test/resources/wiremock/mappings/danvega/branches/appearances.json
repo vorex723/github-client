@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/appearances/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"f4ed375bd4e846f32ec46c8af5195e130fb10f83","url":"https://api.github.com/repos/danvega/appearances/commits/f4ed375bd4e846f32ec46c8af5195e130fb10f83"},"protected":false}]
+          }
+      }
+  ]
+}

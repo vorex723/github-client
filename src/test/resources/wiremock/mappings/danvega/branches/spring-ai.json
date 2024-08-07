@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-ai/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"9e865f0b0f9aa03360d59f2974d0e1620d9fba77","url":"https://api.github.com/repos/danvega/spring-ai/commits/9e865f0b0f9aa03360d59f2974d0e1620d9fba77"},"protected":false},{"name":"open-ai-function-docs","commit":{"sha":"295895c04fb68b8f703521631d80c13a2bf1b77d","url":"https://api.github.com/repos/danvega/spring-ai/commits/295895c04fb68b8f703521631d80c13a2bf1b77d"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/jdbc-users/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"f8dd8afbe4cab00c76e55c1b447bf052c7a2c6bd","url":"https://api.github.com/repos/danvega/jdbc-users/commits/f8dd8afbe4cab00c76e55c1b447bf052c7a2c6bd"},"protected":false}]
+          }
+      }
+  ]
+}

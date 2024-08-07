@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/newsletter/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"f0de324b3c88e17bf46851135eb20ba6497b5ec1","url":"https://api.github.com/repos/danvega/newsletter/commits/f0de324b3c88e17bf46851135eb20ba6497b5ec1"},"protected":false}]
+          }
+      }
+  ]
+}

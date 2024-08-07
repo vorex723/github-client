@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/data-jdbc-test/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"active-profile-test","commit":{"sha":"660273b7eb389c52d77b776d3a0a1e54af3c9db8","url":"https://api.github.com/repos/danvega/data-jdbc-test/commits/660273b7eb389c52d77b776d3a0a1e54af3c9db8"},"protected":false},{"name":"completed","commit":{"sha":"376986777f3e4087555768d5ec00d63a4f6cd945","url":"https://api.github.com/repos/danvega/data-jdbc-test/commits/376986777f3e4087555768d5ec00d63a4f6cd945"},"protected":false},{"name":"master","commit":{"sha":"5b88e6b2a84f43efeb498fdcb2c2ee7c94e8d184","url":"https://api.github.com/repos/danvega/data-jdbc-test/commits/5b88e6b2a84f43efeb498fdcb2c2ee7c94e8d184"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/blog-2020v2/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"ad34dcd2746cc7e398f2ce70175a3d7ee96b586e","url":"https://api.github.com/repos/danvega/blog-2020v2/commits/ad34dcd2746cc7e398f2ce70175a3d7ee96b586e"},"protected":false}]
+          }
+      }
+  ]
+}

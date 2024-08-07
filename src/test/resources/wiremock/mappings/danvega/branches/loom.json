@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/loom/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"ea1d482d08c9564aae128ac193247545ff5664de","url":"https://api.github.com/repos/danvega/loom/commits/ea1d482d08c9564aae128ac193247545ff5664de"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/rewrite/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"8d75f0ef2b99e231b7c82b371086c7492957ac26","url":"https://api.github.com/repos/danvega/rewrite/commits/8d75f0ef2b99e231b7c82b371086c7492957ac26"},"protected":false},{"name":"start","commit":{"sha":"9679deee52f2f53b73f72935f28f2c947c7eb367","url":"https://api.github.com/repos/danvega/rewrite/commits/9679deee52f2f53b73f72935f28f2c947c7eb367"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/gridsome/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"feat/belongs-to","commit":{"sha":"f9038294e210ddc1da03ce936971ee4f1a0423a5","url":"https://api.github.com/repos/danvega/gridsome/commits/f9038294e210ddc1da03ce936971ee4f1a0423a5"},"protected":false},{"name":"feat/example-plugin","commit":{"sha":"9a54f5680a46b113e715be4d125d5b2f6ea120ac","url":"https://api.github.com/repos/danvega/gridsome/commits/9a54f5680a46b113e715be4d125d5b2f6ea120ac"},"protected":false},{"name":"feat/fields-as-route-params","commit":{"sha":"f3634169f829b480a262c9985f8696d0ed47e5b1","url":"https://api.github.com/repos/danvega/gridsome/commits/f3634169f829b480a262c9985f8696d0ed47e5b1"},"protected":false},{"name":"feat/graphql-filters","commit":{"sha":"be3440ce06acb2e8a79870fa0de1dc709c1e2d4a","url":"https://api.github.com/repos/danvega/gridsome/commits/be3440ce06acb2e8a79870fa0de1dc709c1e2d4a"},"protected":false},{"name":"feat/graphql-meta-data","commit":{"sha":"8330982773880d32b954eac10caa673444bacb01","url":"https://api.github.com/repos/danvega/gridsome/commits/8330982773880d32b954eac10caa673444bacb01"},"protected":false},{"name":"feat/image-cache","commit":{"sha":"2e740a4562658fe92db3855ebe22a645c63870d0","url":"https://api.github.com/repos/danvega/gridsome/commits/2e740a4562658fe92db3855ebe22a645c63870d0"},"protected":false},{"name":"feat/image-cropping","commit":{"sha":"5ce4394d383f1da14af91d984c472765881ac076","url":"https://api.github.com/repos/danvega/gridsome/commits/5ce4394d383f1da14af91d984c472765881ac076"},"protected":false},{"name":"feat/query-context","commit":{"sha":"eea34a6337b0a87c8082db064fb2ef33bd8640d7","url":"https://api.github.com/repos/danvega/gridsome/commits/eea34a6337b0a87c8082db064fb2ef33bd8640d7"},"protected":false},{"name":"feat/refs-with-multiple-types","commit":{"sha":"93bbfe3e7b946c52ec2add03a4a5f8fb6c914746","url":"https://api.github.com/repos/danvega/gridsome/commits/93bbfe3e7b946c52ec2add03a4a5f8fb6c914746"},"protected":false},{"name":"feat/site-tagline","commit":{"sha":"a54ea5fcf4ad654d48a3a6ba72dba58faf7007d2","url":"https://api.github.com/repos/danvega/gridsome/commits/a54ea5fcf4ad654d48a3a6ba72dba58faf7007d2"},"protected":false},{"name":"feat/wordpress-acf","commit":{"sha":"a8e7a3818ebc01776c2d1c975e866e9ce0ddf4a0","url":"https://api.github.com/repos/danvega/gridsome/commits/a8e7a3818ebc01776c2d1c975e866e9ce0ddf4a0"},"protected":false},{"name":"fix/generate-404-html","commit":{"sha":"9a3e1ce29690d05570d7b8569199df7bed22ec0c","url":"https://api.github.com/repos/danvega/gridsome/commits/9a3e1ce29690d05570d7b8569199df7bed22ec0c"},"protected":false},{"name":"master","commit":{"sha":"e274d44963e976b81ed74b5b75daff22b9db66bb","url":"https://api.github.com/repos/danvega/gridsome/commits/e274d44963e976b81ed74b5b75daff22b9db66bb"},"protected":false},{"name":"test/circleci","commit":{"sha":"c717dcaeeb65189be62a942855a8d47f8cd66855","url":"https://api.github.com/repos/danvega/gridsome/commits/c717dcaeeb65189be62a942855a8d47f8cd66855"},"protected":false}]
+          }
+      }
+  ]
+}

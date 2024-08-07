@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/sagan/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"jdk8-datetime","commit":{"sha":"6a2d5b3d6e763adf08ff1cc49624d01788304d28","url":"https://api.github.com/repos/danvega/sagan/commits/6a2d5b3d6e763adf08ff1cc49624d01788304d28"},"protected":false},{"name":"main","commit":{"sha":"46bfb83d6d67b678e5f9879c19484597b7f7a873","url":"https://api.github.com/repos/danvega/sagan/commits/46bfb83d6d67b678e5f9879c19484597b7f7a873"},"protected":false},{"name":"refresh","commit":{"sha":"02660f2bfdd694c4d08ca5add80090ca6c840c79","url":"https://api.github.com/repos/danvega/sagan/commits/02660f2bfdd694c4d08ca5add80090ca6c840c79"},"protected":false}]
+          }
+      }
+  ]
+}

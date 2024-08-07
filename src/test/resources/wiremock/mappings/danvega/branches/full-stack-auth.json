@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/full-stack-auth/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"6da8b1fd6a02d13976caab4fba35ceec12764b39","url":"https://api.github.com/repos/danvega/full-stack-auth/commits/6da8b1fd6a02d13976caab4fba35ceec12764b39"},"protected":false}]
+          }
+      }
+  ]
+}

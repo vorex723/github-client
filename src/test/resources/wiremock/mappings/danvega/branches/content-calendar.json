@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/content-calendar/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"3e7615c8d7dba202cb4a82c83af6890557916a43","url":"https://api.github.com/repos/danvega/content-calendar/commits/3e7615c8d7dba202cb4a82c83af6890557916a43"},"protected":false}]
+          }
+      }
+  ]
+}

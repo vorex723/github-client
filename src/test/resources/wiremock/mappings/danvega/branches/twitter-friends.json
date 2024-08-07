@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/twitter-friends/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"694be4ca26e9dc13425e008c02a85373c97bdb08","url":"https://api.github.com/repos/danvega/twitter-friends/commits/694be4ca26e9dc13425e008c02a85373c97bdb08"},"protected":false}]
+          }
+      }
+  ]
+}

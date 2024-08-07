@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/jps-spring-boot-starter/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"d7f6aacd705130d5cafd7352df2dfaf89a79b4ed","url":"https://api.github.com/repos/danvega/jps-spring-boot-starter/commits/d7f6aacd705130d5cafd7352df2dfaf89a79b4ed"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-one-testcontainers/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"c2d638c5570a56d871fbd79b5eb763fb6e923c8e","url":"https://api.github.com/repos/danvega/spring-one-testcontainers/commits/c2d638c5570a56d871fbd79b5eb763fb6e923c8e"},"protected":false}]
+          }
+      }
+  ]
+}

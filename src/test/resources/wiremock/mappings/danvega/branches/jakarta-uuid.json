@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/jakarta-uuid/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"718c1cec0d6b63789c7c2dd0accffffc72d9f6d4","url":"https://api.github.com/repos/danvega/jakarta-uuid/commits/718c1cec0d6b63789c7c2dd0accffffc72d9f6d4"},"protected":false}]
+          }
+      }
+  ]
+}

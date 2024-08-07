@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/se-blog/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"9bb5cc0a8d6a927fd586000c9a130c735adb222b","url":"https://api.github.com/repos/danvega/se-blog/commits/9bb5cc0a8d6a927fd586000c9a130c735adb222b"},"protected":false}]
+          }
+      }
+  ]
+}

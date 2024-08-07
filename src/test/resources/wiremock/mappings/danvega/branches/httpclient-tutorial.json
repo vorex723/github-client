@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/httpclient-tutorial/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"dependabot/maven/com.fasterxml.jackson.core-jackson-databind-2.12.7.1","commit":{"sha":"9202f7d1b55c918fe4fb7e527d6198431ccd8d10","url":"https://api.github.com/repos/danvega/httpclient-tutorial/commits/9202f7d1b55c918fe4fb7e527d6198431ccd8d10"},"protected":false},{"name":"master","commit":{"sha":"aaa06a455e822e732f914677cf5874453d34e913","url":"https://api.github.com/repos/danvega/httpclient-tutorial/commits/aaa06a455e822e732f914677cf5874453d34e913"},"protected":false}]
+          }
+      }
+  ]
+}

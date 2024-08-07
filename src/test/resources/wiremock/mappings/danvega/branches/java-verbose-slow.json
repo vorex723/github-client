@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/java-verbose-slow/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"cc58adc9ad4851b4fd7c1ac04038588be5c9ba0f","url":"https://api.github.com/repos/danvega/java-verbose-slow/commits/cc58adc9ad4851b4fd7c1ac04038588be5c9ba0f"},"protected":false}]
+          }
+      }
+  ]
+}

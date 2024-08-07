@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/hello-ollama/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"3bdb096ae3138095c4f7e99ee19ad4c52b67eb44","url":"https://api.github.com/repos/danvega/hello-ollama/commits/3bdb096ae3138095c4f7e99ee19ad4c52b67eb44"},"protected":false}]
+          }
+      }
+  ]
+}

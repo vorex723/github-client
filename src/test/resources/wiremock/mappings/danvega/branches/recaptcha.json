@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/recaptcha/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"08822e0709e125d0b16e7914bc45c328962b55e7","url":"https://api.github.com/repos/danvega/recaptcha/commits/08822e0709e125d0b16e7914bc45c328962b55e7"},"protected":false},{"name":"start-here","commit":{"sha":"4528e97629321618c2a3fc09844873419eb37d43","url":"https://api.github.com/repos/danvega/recaptcha/commits/4528e97629321618c2a3fc09844873419eb37d43"},"protected":false}]
+          }
+      }
+  ]
+}

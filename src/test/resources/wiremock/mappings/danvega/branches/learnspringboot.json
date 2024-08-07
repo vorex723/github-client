@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/learnspringboot/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"75c5275369a69d898d1f554c694a961db9d9d052","url":"https://api.github.com/repos/danvega/learnspringboot/commits/75c5275369a69d898d1f554c694a961db9d9d052"},"protected":false}]
+          }
+      }
+  ]
+}

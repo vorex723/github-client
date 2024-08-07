@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/two-rest-clients/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"3278d1641bcd47761146c650fecd1505ab4f13ea","url":"https://api.github.com/repos/danvega/two-rest-clients/commits/3278d1641bcd47761146c650fecd1505ab4f13ea"},"protected":false}]
+          }
+      }
+  ]
+}

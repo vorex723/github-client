@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/entity-scan-demo/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"15543831b55c48a9855bb38610d21fc72652cd97","url":"https://api.github.com/repos/danvega/entity-scan-demo/commits/15543831b55c48a9855bb38610d21fc72652cd97"},"protected":false}]
+          }
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-boot-books-db/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"d0847a22003755131b6a1fcfa3079e1945437df2","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/d0847a22003755131b6a1fcfa3079e1945437df2"},"protected":false},{"name":"scenario-1","commit":{"sha":"01c0e18d94c99f022746820934f7d7312201d2ee","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/01c0e18d94c99f022746820934f7d7312201d2ee"},"protected":false},{"name":"scenario-2-starter","commit":{"sha":"abe76aefb74e25d12a8e478b73bae98475bc5239","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/abe76aefb74e25d12a8e478b73bae98475bc5239"},"protected":false},{"name":"scenario-2","commit":{"sha":"fa5dae9b19dc94cd9855f54884f7803512c6dce1","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/fa5dae9b19dc94cd9855f54884f7803512c6dce1"},"protected":false},{"name":"scenario-3-starter","commit":{"sha":"8e19e24d409af0728b207b8719b4b853b120bff9","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/8e19e24d409af0728b207b8719b4b853b120bff9"},"protected":false},{"name":"scenario-3","commit":{"sha":"466684271d18a470cc9ec4ac1245e5da44a025a8","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/466684271d18a470cc9ec4ac1245e5da44a025a8"},"protected":false},{"name":"scenario-4-starter","commit":{"sha":"5ec597d62f223fa61fd8aa25b622a08226c093d3","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/5ec597d62f223fa61fd8aa25b622a08226c093d3"},"protected":false},{"name":"scenario-4","commit":{"sha":"ed9f64ee9ee150e2422595d62be3b80c44f8b484","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/ed9f64ee9ee150e2422595d62be3b80c44f8b484"},"protected":false},{"name":"scenario-5-starter","commit":{"sha":"c3f09521a161a87b7ba50c639c43d44d1dc79f4f","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/c3f09521a161a87b7ba50c639c43d44d1dc79f4f"},"protected":false},{"name":"scenario-5","commit":{"sha":"728721171d41e2e1ec9653d092888d1bfb1a842b","url":"https://api.github.com/repos/danvega/spring-boot-books-db/commits/728721171d41e2e1ec9653d092888d1bfb1a842b"},"protected":false}]
+          }
+      }
+  ]
+}

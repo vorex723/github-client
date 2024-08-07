@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/sys-in-out-tests/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"e38fa73b4ec19d1fba2cdb365cee1b52313c0776","url":"https://api.github.com/repos/danvega/sys-in-out-tests/commits/e38fa73b4ec19d1fba2cdb365cee1b52313c0776"},"protected":false}]
+          }
+      }
+  ]
+}

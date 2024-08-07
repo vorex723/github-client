@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/spring-into-ai/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"2dab076f45b598c3c3c6c664a4b178790fa6b57e","url":"https://api.github.com/repos/danvega/spring-into-ai/commits/2dab076f45b598c3c3c6c664a4b178790fa6b57e"},"protected":false}]
+          }
+      }
+  ]
+}

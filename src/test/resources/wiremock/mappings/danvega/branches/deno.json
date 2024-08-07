@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/deno/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"golang","commit":{"sha":"559453cf6cc88283bcf8fdeccd387458f5c63165","url":"https://api.github.com/repos/danvega/deno/commits/559453cf6cc88283bcf8fdeccd387458f5c63165"},"protected":false},{"name":"master","commit":{"sha":"3ff149fe9772c5d4d516ff586498229df8e6aad5","url":"https://api.github.com/repos/danvega/deno/commits/3ff149fe9772c5d4d516ff586498229df8e6aad5"},"protected":false},{"name":"v1.1","commit":{"sha":"cf081f9b6e0d2371afbe42412a52d8333b66e163","url":"https://api.github.com/repos/danvega/deno/commits/cf081f9b6e0d2371afbe42412a52d8333b66e163"},"protected":false},{"name":"vbump-0.39.0","commit":{"sha":"45dca410afd4a7529d10314bd1bc4ea8a6dd209c","url":"https://api.github.com/repos/danvega/deno/commits/45dca410afd4a7529d10314bd1bc4ea8a6dd209c"},"protected":false}]
+          }
+      }
+  ]
+}

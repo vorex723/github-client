@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/scf-17/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"main","commit":{"sha":"84235f2ca52268a4eda2baacc314b53c01bc9b2b","url":"https://api.github.com/repos/danvega/scf-17/commits/84235f2ca52268a4eda2baacc314b53c01bc9b2b"},"protected":false}]
+          }
+      }
+  ]
+}

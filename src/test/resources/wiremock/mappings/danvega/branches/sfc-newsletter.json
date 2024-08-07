@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/sfc-newsletter/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"7a144c93ddb97f7058b04b556e8b4dafa8c617aa","url":"https://api.github.com/repos/danvega/sfc-newsletter/commits/7a144c93ddb97f7058b04b556e8b4dafa8c617aa"},"protected":false}]
+          }
+      }
+  ]
+}

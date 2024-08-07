@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/toys-for-shots-2019/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"e472105c60dc7a46ad85ba741811a50b28014248","url":"https://api.github.com/repos/danvega/toys-for-shots-2019/commits/e472105c60dc7a46ad85ba741811a50b28014248"},"protected":false}]
+          }
+      }
+  ]
+}

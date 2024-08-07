@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/rest-api-demo/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"live-stream-2","commit":{"sha":"014f96763d1e4eed3a5ff6b525898ffb490686bd","url":"https://api.github.com/repos/danvega/rest-api-demo/commits/014f96763d1e4eed3a5ff6b525898ffb490686bd"},"protected":false},{"name":"master","commit":{"sha":"97df032a9c1baaadaae44dd8bc39610f28f1982b","url":"https://api.github.com/repos/danvega/rest-api-demo/commits/97df032a9c1baaadaae44dd8bc39610f28f1982b"},"protected":false}]
+          }
+      }
+  ]
+}

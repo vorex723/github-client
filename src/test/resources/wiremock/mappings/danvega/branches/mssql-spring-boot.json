@@ -1,0 +1,19 @@
+{
+  "mappings" :
+  [
+      {
+          "request" :
+          {
+              "method" : "GET",
+              "url" : "/repos/danvega/mssql-spring-boot/branches?page=1"
+          },
+          "response" :
+          {
+              "status" : 200,
+              "headers" : {"Content-Type" : "application/json"},
+              "jsonBody" : 
+                 [{"name":"master","commit":{"sha":"06c3fc1a773e77888fb7ef5e166e9f7147070b94","url":"https://api.github.com/repos/danvega/mssql-spring-boot/commits/06c3fc1a773e77888fb7ef5e166e9f7147070b94"},"protected":false}]
+          }
+      }
+  ]
+}
