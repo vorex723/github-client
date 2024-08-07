@@ -54,7 +54,32 @@ public class GithubApiClient {
     }
 
     public List<Branch> getRepositoryBranches(Repository repository){
-        return null;
+        List<Branch> branches = new ArrayList<>();
+        int pageNumber = 1;
+
+        try{
+            List<Branch> pagedBranches;
+            while(true){
+                pagedBranches = githubRestClient.get()
+                        .uri(MessageFormat.format("/repos/{0}/{1}/branches?page={2}", repository.getUsername(), repository.getName(), pageNumber))
+                        .retrieve()
+                        .body(new ParameterizedTypeReference<List<Branch>>() {});
+                if (pagedBranches == null)
+                    break;
+                branches.addAll(pagedBranches);
+
+                if (pagedBranches.isEmpty() || pagedBranches.size() < GITHUB_DEFAULT_PAGE_SIZE)
+                    break;
+                pageNumber++;
+            }
+            return branches;
+
+        } catch (HttpClientErrorException exception){
+            throw new GithubClientException(exception);
+        } catch (HttpServerErrorException exception){
+            throw new GithubServerException(exception);
+        }
+
     }
 
 }

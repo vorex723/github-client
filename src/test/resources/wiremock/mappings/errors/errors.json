@@ -33,6 +33,41 @@
           "status": "500"
         }
       }
+    },
+    {
+      "request": {
+      "method": "GET",
+      "url": "/repos/danvega/not-existing/branches?page=1"
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+          "status": "404"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/repos/danvega/http500/branches?page=1"
+      },
+      "response": {
+        "status": 500,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody":
+          {}
+      }
     }
+
+
+
+
   ]
 }
