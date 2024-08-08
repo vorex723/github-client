@@ -3,6 +3,7 @@ package com.mazurek.github_client.github;
 
 import com.github.tomakehurst.wiremock.junit5.WireMockExtension;
 import com.github.tomakehurst.wiremock.junit5.WireMockTest;
+import com.github.tomakehurst.wiremock.stubbing.ServeEvent;
 import com.mazurek.github_client.github.exception.GithubClientException;
 import com.mazurek.github_client.github.exception.GithubServerException;
 import org.junit.jupiter.api.*;
@@ -46,6 +47,21 @@ class GithubApiClientTest {
     @DynamicPropertySource
     static void configureProperties(DynamicPropertyRegistry dynamicPropertyRegistry){
         dynamicPropertyRegistry.add("github.api.baseUrl", wireMockServer::baseUrl);
+    }
+
+
+    @Test
+    @DisplayName("Request should contain correct headers.")
+    public void requestShouldContainAcceptHeaderSetForJson(){
+        String username = "no-repos";
+
+        githubApiClient.getUserRepositories(username);
+
+        ServeEvent serveEvent = wireMockServer.getAllServeEvents().getFirst();
+        assertThat(serveEvent.getRequest().getHeader(HttpHeaders.ACCEPT)).isEqualTo("application/json");
+        assertThat(serveEvent.getRequest().getHeader(HttpHeaders.AUTHORIZATION)).toString().startsWith("Bearer: ");
+        assertThat(serveEvent.getRequest().getHeader("X-GitHub-Api-Version")).isEqualTo("2022-11-28");
+        assertThat(serveEvent.getRequest().getHeader(HttpHeaders.USER_AGENT)).isEqualTo("MM-Github-Client");
     }
 
     @Nested
@@ -283,10 +299,6 @@ class GithubApiClientTest {
             assertThat(returendBranch.getSha()).isEqualTo("46ffd49dc1efd1224e67850495a90c8956b99d16");
 
         }
-
-
-
-
 
     }
 
