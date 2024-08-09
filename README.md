@@ -32,13 +32,18 @@ Clone the project
   git clone https://github.com/vorex723/github-client.git
 ```
 
-Go to the project resources directory
+Go to directory
 
 ```bash
-  github-client/src/main/resources
+  github-client/src/main/
+```
+Here you have to create directory
+
+```bash
+  resources
 ```
 
-Create file "application.properties" with those keys in it. Github token can be generated on their page by following path:
+After that we need one more thing in newly created "resources" directory. Create there file "application.properties" with those keys in it. Github token can be generated on their page by following path:
 
 Settings >> Developer settings >> Personal access tokens >> Fine-grained tokens >> Generate new token
 
