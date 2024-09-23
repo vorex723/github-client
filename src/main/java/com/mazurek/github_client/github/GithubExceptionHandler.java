@@ -11,7 +11,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
@@ -23,14 +22,14 @@ public class GithubExceptionHandler {
 
     @ExceptionHandler(GithubServerException.class)
     public ResponseEntity<GithubServerErrorMessage> handleGithubHttpServerErrors(GithubServerException exception){
-        logger.error("Github server exception: {}", exception.getMessage(), exception);
+       logger.error("Github server exception: {}", exception.getMessage(), exception);
         return ResponseEntity.status(exception.getStatusCode().value())
                 .contentType(MediaType.APPLICATION_JSON)
                 .body(exception.getResponseBodyAsGithubServerErrorMessage());
     }
     @ExceptionHandler(GithubClientException.class)
     public ResponseEntity<GithubClientErrorMessage> handleGithubHttpClientErrors(GithubClientException exception){
-        logger.error("Github client exception : {}", exception.getMessage(), exception);
+       logger.error("Github client exception : {}", exception.getMessage(), exception);
         return ResponseEntity.status(exception.getStatusCode().value())
                 .contentType(MediaType.APPLICATION_JSON)
                 .body(exception.getResponseBodyAsGithubClientErrorMessage());

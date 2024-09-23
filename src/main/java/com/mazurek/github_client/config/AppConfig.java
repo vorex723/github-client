@@ -3,9 +3,15 @@ package com.mazurek.github_client.config;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.task.AsyncTaskExecutor;
+import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import org.springframework.http.HttpHeaders;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.client.RestClient;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 
 
 @Configuration
@@ -28,4 +34,10 @@ public class AppConfig {
                 .defaultHeader(HttpHeaders.USER_AGENT, "MM-Github-Client")
                 .build();
     }
+
+    @Bean
+    public AsyncTaskExecutor taskExecutor(){
+        return new SimpleAsyncTaskExecutor();
+    }
+
 }

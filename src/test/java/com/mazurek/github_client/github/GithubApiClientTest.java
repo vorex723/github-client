@@ -192,7 +192,7 @@ class GithubApiClientTest {
 
         @Test
         @DisplayName("When getting repository branches should call correct url.")
-        public void whenGettingRepositoryBranchesShouldCallGoodUrl(){
+        public void whenGettingRepositoryBranchesShouldCallGoodUrl() throws InterruptedException {
             githubApiClient.getRepositoryBranches(repoOneBranch);
 
             wireMockServer.verify(getRequestedFor(urlEqualTo(MessageFormat.format(branchUrlMessageFormat,username,repoOneBranch.getName(),pageNumber))));
@@ -215,7 +215,7 @@ class GithubApiClientTest {
 
         @Test
         @DisplayName("When repository have less than thirty branches should not call second page.")
-        public void whenRepositoryHaveLessThanThirtyBranchesShouldNotCallSecondPage(){
+        public void whenRepositoryHaveLessThanThirtyBranchesShouldNotCallSecondPage() throws InterruptedException {
             githubApiClient.getRepositoryBranches(repoOneBranch);
             wireMockServer.verify(
                     exactly(1),
@@ -231,7 +231,7 @@ class GithubApiClientTest {
 
         @Test
         @DisplayName("When repository have exactly thirty branches should call second page.")
-        public void whenRepositoryHaveExactlyThirtyBranchesShouldCallSecondPage(){
+        public void whenRepositoryHaveExactlyThirtyBranchesShouldCallSecondPage() throws InterruptedException {
             githubApiClient.getRepositoryBranches(repoThirtyBranches);
             wireMockServer.verify(
                     exactly(1),
@@ -248,7 +248,7 @@ class GithubApiClientTest {
 
         @Test
         @DisplayName("When repository do not have branches should return empty list.")
-        public void whenRepositoryDoNotHaveBranchesShouldReturnEmptyList(){
+        public void whenRepositoryDoNotHaveBranchesShouldReturnEmptyList() throws InterruptedException {
             List<Branch> returnedBranches = githubApiClient.getRepositoryBranches(repoNoBranches);
             assertNotNull(returnedBranches);
             assertTrue(returnedBranches.isEmpty());
@@ -256,7 +256,7 @@ class GithubApiClientTest {
 
         @Test
         @DisplayName("When getting repository branches should return correct amount of branches.")
-        public void whenGettingRepositoryBranchesShouldReturnCorrectAmountOfBranches(){
+        public void whenGettingRepositoryBranchesShouldReturnCorrectAmountOfBranches() throws InterruptedException {
             List<Branch> returnedBranchesOneBranch = githubApiClient.getRepositoryBranches(repoOneBranch);
             List<Branch> returnedBranchesThirtyBranches = githubApiClient.getRepositoryBranches(repoThirtyBranches);
 
@@ -266,7 +266,7 @@ class GithubApiClientTest {
 
         @Test
         @DisplayName("When getting repository branches should parse correct data")
-        public void whenGettingRepositoryBranchesShouldParseCorrectData(){
+        public void whenGettingRepositoryBranchesShouldParseCorrectData() throws InterruptedException {
             Repository repoDataValidation = new Repository("data-validation", username, false);
             String stubUrl = "/repos/danvega/data-validation/branches?page=1";
             String jsonBody =

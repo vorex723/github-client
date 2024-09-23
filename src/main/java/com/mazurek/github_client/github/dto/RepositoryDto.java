@@ -14,15 +14,16 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserRepositoryDto {
+public class RepositoryDto {
     private String username;
     private String name;
     private List<BranchDto> branches;
 
-    public UserRepositoryDto(Repository repository, List<Branch> branches){
+    public RepositoryDto(Repository repository, List<Branch> branches){
         this.username = repository.getUsername();
         this.name = repository.getName();
         this.branches = new ArrayList<>();
         branches.forEach(branch -> this.branches.add(new BranchDto(branch)));
+
     }
 }

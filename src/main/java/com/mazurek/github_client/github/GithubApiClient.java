@@ -1,5 +1,6 @@
 package com.mazurek.github_client.github;
 
+import com.mazurek.github_client.github.dto.RepositoryDto;
 import com.mazurek.github_client.github.exception.GithubClientException;
 import com.mazurek.github_client.github.exception.GithubServerException;
 import lombok.RequiredArgsConstructor;
@@ -12,8 +13,8 @@ import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.RestClient;
 
 import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.concurrent.*;
 
 
 @Component
@@ -24,14 +25,17 @@ public class GithubApiClient {
     private final int GITHUB_DEFAULT_PAGE_SIZE = 30;
 
     public List<Repository> getUserRepositories(String username){
+
         List<Repository> repositories = new ArrayList<>();
         int pageNumber = 1;
         try{
-           List<Repository> pagedRepositories;
+            List<Repository> pagedRepositories;
+
             while(true){
                 ResponseEntity<List<Repository>> response = githubRestClient.get()
                         .uri(MessageFormat.format("/users/{0}/repos?page={1}",username, pageNumber))
                         .retrieve().toEntity(new ParameterizedTypeReference<List<Repository>>() {});
+
                 pagedRepositories = response.getBody();
 
                 if(pagedRepositories == null)
@@ -48,15 +52,14 @@ public class GithubApiClient {
         catch (HttpClientErrorException exception){
             throw new GithubClientException(exception);
         }
-        catch (HttpServerErrorException exception){
+        catch (HttpServerErrorException exception) {
             throw new GithubServerException(exception);
         }
     }
 
-    public List<Branch> getRepositoryBranches(Repository repository){
+    public List<Branch> getRepositoryBranches(Repository repository) throws InterruptedException {
         List<Branch> branches = new ArrayList<>();
         int pageNumber = 1;
-
         try{
             List<Branch> pagedBranches;
             while(true){
@@ -81,5 +84,8 @@ public class GithubApiClient {
         }
 
     }
+
+
+
 
 }

@@ -1,15 +1,9 @@
 package com.mazurek.github_client.github;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.junit5.WireMockExtension;
-import com.github.tomakehurst.wiremock.junit5.WireMockTest;
 import com.mazurek.github_client.github.dto.ErrorMessage;
-import com.mazurek.github_client.github.dto.GithubClientErrorMessage;
-import com.mazurek.github_client.github.dto.GithubServerErrorMessage;
-import com.mazurek.github_client.github.dto.UserRepositoryDto;
-import com.mazurek.github_client.github.exception.GithubClientException;
-import com.mazurek.github_client.github.exception.GithubServerException;
+import com.mazurek.github_client.github.dto.RepositoryDto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -26,7 +20,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.springframework.web.client.RestClient;
-import org.springframework.web.client.RestTemplate;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -34,11 +27,9 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
@@ -88,23 +79,19 @@ class GithubControllerTest {
         @Test
         @DisplayName("When user does not have repositories should return response with http status 200 and empty list")
         public void whrenUserDoesNotHaveRepositoriesShouldReturnResponseEntityWithHttpStatus200AndEmptyList() throws Exception{
-            ResponseEntity<List<UserRepositoryDto>> response = restClient.get()
+            ResponseEntity<List<RepositoryDto>> response = restClient.get()
                     .uri("http://localhost:" + port + "/api/v1/github/users/"+usernameNorepos+"/repos")
-                    .retrieve().toEntity(new ParameterizedTypeReference<List<UserRepositoryDto>>() {});
+                    .retrieve().toEntity(new ParameterizedTypeReference<List<RepositoryDto>>() {});
             assertThat(response.getStatusCode().value()).isEqualTo(200);
             assertThat(response.getBody().isEmpty()).isTrue();
         }
-        @Test
-        @DisplayName("")
-        public void when(){
 
-        }
         @Test
         @DisplayName("When user does not have repositories should return response with http status 200 and empty list")
         public void whenUserDoesNotHaveRepositoriesShouldReturnResponseEntityWithHttpStatus200AndEmptyList() throws Exception{
-            ResponseEntity<List<UserRepositoryDto>> response = restClient.get()
+            ResponseEntity<List<RepositoryDto>> response = restClient.get()
                     .uri("http://localhost:" + port + "/api/v1/github/users/"+usernameNorepos+"/repos")
-                    .retrieve().toEntity(new ParameterizedTypeReference<List<UserRepositoryDto>>() {});
+                    .retrieve().toEntity(new ParameterizedTypeReference<List<RepositoryDto>>() {});
             assertThat(response.getHeaders().getContentType()).isEqualTo(MediaType.APPLICATION_JSON);
             assertThat(response.getStatusCode().value()).isEqualTo(200);
             assertThat(response.getBody().isEmpty()).isTrue();
@@ -113,9 +100,9 @@ class GithubControllerTest {
         @Test
         @DisplayName("When user does not have repositories should return response with http status 200 and list of 242 elements")
         public void whenUserDoesNotHaveRepositoriesShouldReturnResponseEntityWithHttpStatus200AndListOf242Elements() throws Exception{
-            ResponseEntity<List<UserRepositoryDto>> response = restClient.get()
+            ResponseEntity<List<RepositoryDto>> response = restClient.get()
                     .uri("http://localhost:" + port + "/api/v1/github/users/"+usernameDanvega+"/repos")
-                    .retrieve().toEntity(new ParameterizedTypeReference<List<UserRepositoryDto>>() {});
+                    .retrieve().toEntity(new ParameterizedTypeReference<List<RepositoryDto>>() {});
 
             assertThat(response.getStatusCode().value()).isEqualTo(200);
             assertThat(response.getBody().size()).isEqualTo(242);

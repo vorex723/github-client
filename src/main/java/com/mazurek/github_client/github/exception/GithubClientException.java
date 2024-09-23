@@ -2,12 +2,9 @@ package com.mazurek.github_client.github.exception;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mazurek.github_client.github.dto.GithubClientErrorMessage;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.web.client.HttpClientErrorException;
 
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
 public class GithubClientException extends HttpClientErrorException {
